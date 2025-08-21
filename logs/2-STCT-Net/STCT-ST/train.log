@@ -1,0 +1,880 @@
+epoch  1, iter    1: loss: 0.8368 (0.8368) | load time: 3.9474 | back time: 1.6389 | lr: 0.00000012 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter   51: loss: 0.6227 (0.7654) | load time: 0.0282 | back time: 0.5582 | lr: 0.00000098 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  101: loss: 0.3069 (0.6031) | load time: 0.0276 | back time: 0.5404 | lr: 0.00000185 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  151: loss: 0.1712 (0.4733) | load time: 0.0286 | back time: 0.5657 | lr: 0.00000272 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  201: loss: 0.1074 (0.3883) | load time: 0.0268 | back time: 0.5582 | lr: 0.00000359 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  251: loss: 0.0878 (0.3298) | load time: 0.0293 | back time: 0.5625 | lr: 0.00000445 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  301: loss: 0.0627 (0.2873) | load time: 0.0305 | back time: 0.5771 | lr: 0.00000532 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  351: loss: 0.0564 (0.2548) | load time: 0.0289 | back time: 0.5574 | lr: 0.00000619 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  401: loss: 0.0456 (0.2294) | load time: 0.0274 | back time: 0.5625 | lr: 0.00000705 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  451: loss: 0.0417 (0.2090) | load time: 0.0275 | back time: 0.5549 | lr: 0.00000792 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  501: loss: 0.0396 (0.1922) | load time: 0.0275 | back time: 0.5664 | lr: 0.00000879 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  551: loss: 0.0316 (0.1780) | load time: 0.0297 | back time: 0.5564 | lr: 0.00000966 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  601: loss: 0.0346 (0.1660) | load time: 0.0277 | back time: 0.5554 | lr: 0.00001052 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  651: loss: 0.0304 (0.1557) | load time: 0.0274 | back time: 0.5721 | lr: 0.00001139 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  701: loss: 0.0318 (0.1467) | load time: 0.0267 | back time: 0.5460 | lr: 0.00001226 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  751: loss: 0.0250 (0.1388) | load time: 0.0273 | back time: 0.5641 | lr: 0.00001313 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  801: loss: 0.0248 (0.1318) | load time: 0.0276 | back time: 0.5566 | lr: 0.00001399 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  851: loss: 0.0214 (0.1255) | load time: 0.0318 | back time: 0.5596 | lr: 0.00001486 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  901: loss: 0.0279 (0.1199) | load time: 0.0260 | back time: 0.5685 | lr: 0.00001573 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter  951: loss: 0.0272 (0.1149) | load time: 0.0283 | back time: 0.5651 | lr: 0.00001659 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter 1001: loss: 0.0217 (0.1103) | load time: 0.0261 | back time: 0.5389 | lr: 0.00001746 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter 1051: loss: 0.0216 (0.1061) | load time: 0.0272 | back time: 0.5676 | lr: 0.00001833 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter 1101: loss: 0.0233 (0.1023) | load time: 0.0262 | back time: 0.5568 | lr: 0.00001920 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  1, iter 1151: loss: 0.0189 (0.0987) | load time: 0.0218 | back time: 0.5438 | lr: 0.00002006 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter    1: loss: 0.0239 (0.0986) | load time: 3.5006 | back time: 0.7731 | lr: 0.00002010 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter   51: loss: 0.0211 (0.0953) | load time: 0.0255 | back time: 0.5512 | lr: 0.00002096 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  101: loss: 0.0233 (0.0924) | load time: 0.0288 | back time: 0.5656 | lr: 0.00002183 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  151: loss: 0.0195 (0.0896) | load time: 0.0267 | back time: 0.5464 | lr: 0.00002270 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  201: loss: 0.0187 (0.0870) | load time: 0.0262 | back time: 0.5432 | lr: 0.00002357 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  251: loss: 0.0298 (0.0846) | load time: 0.0287 | back time: 0.5546 | lr: 0.00002443 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  301: loss: 0.0176 (0.0823) | load time: 0.0253 | back time: 0.5559 | lr: 0.00002530 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  351: loss: 0.0200 (0.0802) | load time: 0.0261 | back time: 0.5556 | lr: 0.00002617 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  401: loss: 0.0144 (0.0783) | load time: 0.0257 | back time: 0.5501 | lr: 0.00002703 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  451: loss: 0.0246 (0.0764) | load time: 0.0279 | back time: 0.5667 | lr: 0.00002790 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  501: loss: 0.0143 (0.0746) | load time: 0.0277 | back time: 0.5725 | lr: 0.00002877 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  551: loss: 0.0217 (0.0730) | load time: 0.0347 | back time: 0.5666 | lr: 0.00002964 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  601: loss: 0.0183 (0.0714) | load time: 0.0279 | back time: 0.5484 | lr: 0.00003050 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  651: loss: 0.0142 (0.0699) | load time: 0.0254 | back time: 0.5649 | lr: 0.00003137 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  701: loss: 0.0192 (0.0685) | load time: 0.0252 | back time: 0.5399 | lr: 0.00003224 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  751: loss: 0.0145 (0.0672) | load time: 0.0274 | back time: 0.5480 | lr: 0.00003311 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  801: loss: 0.0225 (0.0659) | load time: 0.0294 | back time: 0.5586 | lr: 0.00003397 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  851: loss: 0.0214 (0.0647) | load time: 0.0291 | back time: 0.5500 | lr: 0.00003484 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  901: loss: 0.0163 (0.0635) | load time: 0.0274 | back time: 0.5626 | lr: 0.00003571 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter  951: loss: 0.0191 (0.0624) | load time: 0.0276 | back time: 0.5621 | lr: 0.00003657 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter 1001: loss: 0.0154 (0.0613) | load time: 0.0289 | back time: 0.5597 | lr: 0.00003744 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter 1051: loss: 0.0178 (0.0603) | load time: 0.0293 | back time: 0.5645 | lr: 0.00003831 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter 1101: loss: 0.0161 (0.0594) | load time: 0.0275 | back time: 0.5550 | lr: 0.00003918 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  2, iter 1151: loss: 0.0139 (0.0584) | load time: 0.0446 | back time: 0.5554 | lr: 0.00004004 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter    1: loss: 0.0175 (0.0584) | load time: 4.0629 | back time: 0.7582 | lr: 0.00004008 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter   51: loss: 0.0120 (0.0575) | load time: 0.0275 | back time: 0.5507 | lr: 0.00004094 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  101: loss: 0.0184 (0.0566) | load time: 0.0498 | back time: 0.5886 | lr: 0.00004181 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  151: loss: 0.0177 (0.0558) | load time: 0.0282 | back time: 0.5628 | lr: 0.00004268 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  201: loss: 0.0173 (0.0550) | load time: 0.0249 | back time: 0.5487 | lr: 0.00004355 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  251: loss: 0.0157 (0.0543) | load time: 0.0297 | back time: 0.5715 | lr: 0.00004441 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  301: loss: 0.0109 (0.0535) | load time: 0.0315 | back time: 0.5843 | lr: 0.00004528 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  351: loss: 0.0118 (0.0528) | load time: 0.0273 | back time: 0.5562 | lr: 0.00004615 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  401: loss: 0.0107 (0.0521) | load time: 0.0280 | back time: 0.5698 | lr: 0.00004701 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  451: loss: 0.0168 (0.0515) | load time: 0.0264 | back time: 0.5570 | lr: 0.00004788 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  501: loss: 0.0129 (0.0508) | load time: 0.0286 | back time: 0.5608 | lr: 0.00004875 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  551: loss: 0.0133 (0.0502) | load time: 0.0301 | back time: 0.5647 | lr: 0.00004962 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  601: loss: 0.0104 (0.0496) | load time: 0.0283 | back time: 0.5694 | lr: 0.00005048 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  651: loss: 0.0113 (0.0490) | load time: 0.0270 | back time: 0.5526 | lr: 0.00005135 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  701: loss: 0.0101 (0.0484) | load time: 0.0321 | back time: 0.5747 | lr: 0.00005222 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  751: loss: 0.0205 (0.0479) | load time: 0.0283 | back time: 0.5623 | lr: 0.00005309 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  801: loss: 0.0104 (0.0474) | load time: 0.0285 | back time: 0.5548 | lr: 0.00005395 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  851: loss: 0.0156 (0.0469) | load time: 0.0280 | back time: 0.5508 | lr: 0.00005482 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  901: loss: 0.0146 (0.0464) | load time: 0.0276 | back time: 0.5557 | lr: 0.00005569 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter  951: loss: 0.0110 (0.0459) | load time: 0.0282 | back time: 0.5739 | lr: 0.00005655 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter 1001: loss: 0.0166 (0.0454) | load time: 0.0307 | back time: 0.5602 | lr: 0.00005742 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter 1051: loss: 0.0184 (0.0450) | load time: 0.0264 | back time: 0.5459 | lr: 0.00005829 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter 1101: loss: 0.0120 (0.0446) | load time: 0.0264 | back time: 0.5488 | lr: 0.00005916 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  3, iter 1151: loss: 0.0100 (0.0441) | load time: 0.0249 | back time: 0.5436 | lr: 0.00006002 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter    1: loss: 0.0156 (0.0441) | load time: 4.2161 | back time: 0.8553 | lr: 0.00006006 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter   51: loss: 0.0097 (0.0437) | load time: 0.0283 | back time: 0.5635 | lr: 0.00006092 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  101: loss: 0.0103 (0.0433) | load time: 0.0281 | back time: 0.5644 | lr: 0.00006179 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  151: loss: 0.0129 (0.0429) | load time: 0.0267 | back time: 0.5567 | lr: 0.00006266 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  201: loss: 0.0133 (0.0425) | load time: 0.0246 | back time: 0.5737 | lr: 0.00006353 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  251: loss: 0.0168 (0.0421) | load time: 0.0318 | back time: 0.5639 | lr: 0.00006439 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  301: loss: 0.0095 (0.0417) | load time: 0.0272 | back time: 0.5716 | lr: 0.00006526 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  351: loss: 0.0123 (0.0414) | load time: 0.0293 | back time: 0.5615 | lr: 0.00006613 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  401: loss: 0.0161 (0.0410) | load time: 0.0300 | back time: 0.5562 | lr: 0.00006699 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  451: loss: 0.0151 (0.0407) | load time: 0.0307 | back time: 0.5710 | lr: 0.00006786 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  501: loss: 0.0170 (0.0404) | load time: 0.0322 | back time: 0.5719 | lr: 0.00006873 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  551: loss: 0.0206 (0.0400) | load time: 0.0297 | back time: 0.5596 | lr: 0.00006960 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  601: loss: 0.0132 (0.0397) | load time: 0.0303 | back time: 0.5519 | lr: 0.00007046 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  651: loss: 0.0151 (0.0394) | load time: 0.0282 | back time: 0.5640 | lr: 0.00007133 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  701: loss: 0.0116 (0.0391) | load time: 0.0290 | back time: 0.5565 | lr: 0.00007220 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  751: loss: 0.0201 (0.0388) | load time: 0.0282 | back time: 0.5621 | lr: 0.00007307 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  801: loss: 0.0106 (0.0385) | load time: 0.0286 | back time: 0.5554 | lr: 0.00007393 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  851: loss: 0.0142 (0.0382) | load time: 0.0264 | back time: 0.5700 | lr: 0.00007480 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  901: loss: 0.0102 (0.0379) | load time: 0.0285 | back time: 0.5700 | lr: 0.00007567 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter  951: loss: 0.0102 (0.0377) | load time: 0.0279 | back time: 0.5682 | lr: 0.00007653 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter 1001: loss: 0.0176 (0.0374) | load time: 0.0284 | back time: 0.5600 | lr: 0.00007740 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter 1051: loss: 0.0108 (0.0371) | load time: 0.0284 | back time: 0.5561 | lr: 0.00007827 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter 1101: loss: 0.0096 (0.0369) | load time: 0.0277 | back time: 0.5605 | lr: 0.00007914 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  4, iter 1151: loss: 0.0138 (0.0366) | load time: 0.0222 | back time: 0.5532 | lr: 0.00008000 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter    1: loss: 0.0108 (0.0366) | load time: 3.6500 | back time: 0.8309 | lr: 0.00008004 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter   51: loss: 0.0162 (0.0364) | load time: 0.0257 | back time: 0.5419 | lr: 0.00008090 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  101: loss: 0.0152 (0.0361) | load time: 0.0295 | back time: 0.5671 | lr: 0.00008177 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  151: loss: 0.0136 (0.0359) | load time: 0.0289 | back time: 0.5499 | lr: 0.00008264 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  201: loss: 0.0141 (0.0357) | load time: 0.0284 | back time: 0.5832 | lr: 0.00008351 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  251: loss: 0.0123 (0.0355) | load time: 0.0275 | back time: 0.5617 | lr: 0.00008437 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  301: loss: 0.0138 (0.0352) | load time: 0.0292 | back time: 0.5656 | lr: 0.00008524 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  351: loss: 0.0112 (0.0350) | load time: 0.0270 | back time: 0.5565 | lr: 0.00008611 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  401: loss: 0.0109 (0.0348) | load time: 0.0270 | back time: 0.5640 | lr: 0.00008697 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  451: loss: 0.0102 (0.0346) | load time: 0.0243 | back time: 0.5581 | lr: 0.00008784 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  501: loss: 0.0117 (0.0344) | load time: 0.0285 | back time: 0.5543 | lr: 0.00008871 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  551: loss: 0.0177 (0.0342) | load time: 0.0271 | back time: 0.5567 | lr: 0.00008958 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  601: loss: 0.0128 (0.0340) | load time: 0.0323 | back time: 0.5863 | lr: 0.00009044 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  651: loss: 0.0105 (0.0338) | load time: 0.0312 | back time: 0.5571 | lr: 0.00009131 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  701: loss: 0.0106 (0.0336) | load time: 0.0268 | back time: 0.5617 | lr: 0.00009218 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  751: loss: 0.0167 (0.0334) | load time: 0.0266 | back time: 0.5519 | lr: 0.00009305 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  801: loss: 0.0135 (0.0332) | load time: 0.0295 | back time: 0.5604 | lr: 0.00009391 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  851: loss: 0.0105 (0.0330) | load time: 0.0291 | back time: 0.5427 | lr: 0.00009478 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  901: loss: 0.0107 (0.0329) | load time: 0.0316 | back time: 0.5570 | lr: 0.00009565 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter  951: loss: 0.0138 (0.0327) | load time: 0.0283 | back time: 0.5679 | lr: 0.00009651 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter 1001: loss: 0.0140 (0.0325) | load time: 0.0280 | back time: 0.5644 | lr: 0.00009738 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter 1051: loss: 0.0203 (0.0323) | load time: 0.0274 | back time: 0.5666 | lr: 0.00009825 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter 1101: loss: 0.0102 (0.0322) | load time: 0.0276 | back time: 0.5520 | lr: 0.00009912 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  5, iter 1151: loss: 0.0111 (0.0320) | load time: 0.0231 | back time: 0.5669 | lr: 0.00009998 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter    1: loss: 0.0160 (0.0320) | load time: 3.5865 | back time: 0.7427 | lr: 0.00010000 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter   51: loss: 0.0175 (0.0318) | load time: 0.0288 | back time: 0.5503 | lr: 0.00010000 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  101: loss: 0.0131 (0.0317) | load time: 0.0279 | back time: 0.5712 | lr: 0.00010000 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  151: loss: 0.0126 (0.0315) | load time: 0.0264 | back time: 0.5513 | lr: 0.00010000 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  201: loss: 0.0129 (0.0314) | load time: 0.0282 | back time: 0.5715 | lr: 0.00010000 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  251: loss: 0.0108 (0.0312) | load time: 0.0277 | back time: 0.5680 | lr: 0.00010000 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  301: loss: 0.0135 (0.0311) | load time: 0.0293 | back time: 0.5788 | lr: 0.00009999 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  351: loss: 0.0115 (0.0309) | load time: 0.0313 | back time: 0.5705 | lr: 0.00009999 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  401: loss: 0.0129 (0.0308) | load time: 0.0285 | back time: 0.5751 | lr: 0.00009999 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  451: loss: 0.0094 (0.0306) | load time: 0.0279 | back time: 0.5535 | lr: 0.00009999 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  501: loss: 0.0090 (0.0305) | load time: 0.0260 | back time: 0.5683 | lr: 0.00009998 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  551: loss: 0.0127 (0.0303) | load time: 0.0266 | back time: 0.5459 | lr: 0.00009998 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  601: loss: 0.0164 (0.0302) | load time: 0.0393 | back time: 0.5839 | lr: 0.00009997 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  651: loss: 0.0163 (0.0301) | load time: 0.0386 | back time: 0.5773 | lr: 0.00009997 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  701: loss: 0.0103 (0.0299) | load time: 0.0265 | back time: 0.5833 | lr: 0.00009996 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  751: loss: 0.0086 (0.0298) | load time: 0.0265 | back time: 0.5721 | lr: 0.00009996 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  801: loss: 0.0118 (0.0297) | load time: 0.0266 | back time: 0.5576 | lr: 0.00009995 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  851: loss: 0.0112 (0.0295) | load time: 0.0330 | back time: 0.5662 | lr: 0.00009995 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  901: loss: 0.0128 (0.0294) | load time: 0.0333 | back time: 0.5591 | lr: 0.00009994 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter  951: loss: 0.0154 (0.0293) | load time: 0.0265 | back time: 0.5425 | lr: 0.00009993 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter 1001: loss: 0.0087 (0.0291) | load time: 0.0289 | back time: 0.5674 | lr: 0.00009993 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter 1051: loss: 0.0092 (0.0290) | load time: 0.0291 | back time: 0.5595 | lr: 0.00009992 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter 1101: loss: 0.0165 (0.0289) | load time: 0.0274 | back time: 0.5508 | lr: 0.00009991 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+epoch  6, iter 1151: loss: 0.0136 (0.0288) | load time: 0.0233 | back time: 0.5521 | lr: 0.00009990 | best AP50 acc: 0.0000 | best AP70 acc: 0.0000 | best mAP acc: 0.0000 | best Score: 0.0000 | best Score epoch: -1 
+UAV_SEQS_2 | mAP50:90: 31.7139 | AP50: 69.1103 | AP70: 29.0140 
+UAV_SEQS_37 | mAP50:90: 75.2713 | AP50: 91.8370 | AP70: 74.3993 
+UAV_SEQS_45 | mAP50:90: 94.3420 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_47 | mAP50:90: 99.2015 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_55 | mAP50:90: 52.5373 | AP50: 77.9802 | AP70: 55.2609 
+UAV_SEQS_59 | mAP50:90: 53.2139 | AP50: 88.0522 | AP70: 53.1313 
+UAV_SEQS_6 | mAP50:90: 21.0898 | AP50: 29.1965 | AP70: 23.9802 
+UAV_SEQS_63 | mAP50:90: 9.6008 | AP50: 44.4436 | AP70: 0.0271 
+UAV_SEQS_65 | mAP50:90: 81.9586 | AP50: 96.3429 | AP70: 89.3233 
+UAV_SEQS_7 | mAP50:90: 21.2829 | AP50: 91.5592 | AP70: 0.7910 
+UAV_SEQS_71 | mAP50:90: 76.2357 | AP50: 95.9382 | AP70: 85.5475 
+UAV_SEQS_73 | mAP50:90: 56.9762 | AP50: 76.6583 | AP70: 61.3207 
+UAV_SEQS_74 | mAP50:90: 100.0000 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 0.9901 | AP50: 0.9901 | AP70: 0.9901 
+UAV_SEQS_8 | mAP50:90: 36.2951 | AP50: 69.5842 | AP70: 28.3708 
+Overall            | mAP50:95: 53.2030 | AP50: 75.1486 | AP70: 52.0746 
+epoch  7, iter    1: loss: 0.0115 (0.0288) | load time: 7.5322 | back time: 0.9283 | lr: 0.00009990 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter   51: loss: 0.0161 (0.0287) | load time: 0.0293 | back time: 0.5524 | lr: 0.00009989 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  101: loss: 0.0117 (0.0286) | load time: 0.0315 | back time: 0.5621 | lr: 0.00009988 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  151: loss: 0.0167 (0.0284) | load time: 0.0249 | back time: 0.5524 | lr: 0.00009988 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  201: loss: 0.0114 (0.0283) | load time: 0.0292 | back time: 0.5567 | lr: 0.00009987 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  251: loss: 0.0090 (0.0282) | load time: 0.0304 | back time: 0.5651 | lr: 0.00009986 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  301: loss: 0.0113 (0.0281) | load time: 0.0255 | back time: 0.5748 | lr: 0.00009984 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  351: loss: 0.0121 (0.0280) | load time: 0.0292 | back time: 0.5822 | lr: 0.00009983 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  401: loss: 0.0123 (0.0279) | load time: 0.0288 | back time: 0.5505 | lr: 0.00009982 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  451: loss: 0.0101 (0.0278) | load time: 0.0280 | back time: 0.5595 | lr: 0.00009981 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  501: loss: 0.0131 (0.0277) | load time: 0.0268 | back time: 0.5767 | lr: 0.00009980 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  551: loss: 0.0094 (0.0276) | load time: 0.0288 | back time: 0.5682 | lr: 0.00009979 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  601: loss: 0.0129 (0.0275) | load time: 0.0260 | back time: 0.5606 | lr: 0.00009977 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  651: loss: 0.0116 (0.0274) | load time: 0.0274 | back time: 0.5647 | lr: 0.00009976 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  701: loss: 0.0098 (0.0273) | load time: 0.0278 | back time: 0.5321 | lr: 0.00009975 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  751: loss: 0.0101 (0.0272) | load time: 0.0272 | back time: 0.5756 | lr: 0.00009973 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  801: loss: 0.0165 (0.0271) | load time: 0.0274 | back time: 0.5429 | lr: 0.00009972 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  851: loss: 0.0109 (0.0270) | load time: 0.0252 | back time: 0.5454 | lr: 0.00009970 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  901: loss: 0.0101 (0.0269) | load time: 0.0276 | back time: 0.5497 | lr: 0.00009969 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter  951: loss: 0.0118 (0.0268) | load time: 0.0283 | back time: 0.5733 | lr: 0.00009967 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter 1001: loss: 0.0117 (0.0267) | load time: 0.0293 | back time: 0.5605 | lr: 0.00009966 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter 1051: loss: 0.0102 (0.0266) | load time: 0.0274 | back time: 0.5571 | lr: 0.00009964 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter 1101: loss: 0.0101 (0.0265) | load time: 0.0294 | back time: 0.5603 | lr: 0.00009963 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+epoch  7, iter 1151: loss: 0.0097 (0.0264) | load time: 0.0267 | back time: 0.5445 | lr: 0.00009961 | best AP50 acc: 0.7515 | best AP70 acc: 0.5207 | best mAP acc: 0.5320 | best Score: 0.6176 | best Score epoch:  6 
+UAV_SEQS_2 | mAP50:90: 36.3329 | AP50: 58.4969 | AP70: 34.9922 
+UAV_SEQS_37 | mAP50:90: 85.3514 | AP50: 100.0000 | AP70: 89.1251 
+UAV_SEQS_45 | mAP50:90: 96.9317 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_47 | mAP50:90: 98.9168 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_55 | mAP50:90: 33.0244 | AP50: 51.8184 | AP70: 31.4703 
+UAV_SEQS_59 | mAP50:90: 65.5164 | AP50: 90.8202 | AP70: 70.9756 
+UAV_SEQS_6 | mAP50:90: 45.7788 | AP50: 61.8895 | AP70: 48.5382 
+UAV_SEQS_63 | mAP50:90: 4.6920 | AP50: 20.6591 | AP70: 0.1507 
+UAV_SEQS_65 | mAP50:90: 88.8638 | AP50: 97.7405 | AP70: 95.5879 
+UAV_SEQS_7 | mAP50:90: 35.0617 | AP50: 96.5182 | AP70: 1.9571 
+UAV_SEQS_71 | mAP50:90: 79.6737 | AP50: 100.0000 | AP70: 85.8685 
+UAV_SEQS_73 | mAP50:90: 65.0126 | AP50: 83.2737 | AP70: 73.8213 
+UAV_SEQS_74 | mAP50:90: 100.0000 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 27.4719 | AP50: 38.6139 | AP70: 38.5456 
+UAV_SEQS_8 | mAP50:90: 90.7895 | AP50: 100.0000 | AP70: 92.6271 
+Overall            | mAP50:95: 62.9152 | AP50: 81.4380 | AP70: 61.5908 
+epoch  8, iter    1: loss: 0.0165 (0.0264) | load time: 4.0559 | back time: 0.8938 | lr: 0.00009961 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter   51: loss: 0.0116 (0.0263) | load time: 0.0275 | back time: 0.5447 | lr: 0.00009959 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  101: loss: 0.0103 (0.0262) | load time: 0.0329 | back time: 0.5689 | lr: 0.00009957 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  151: loss: 0.0096 (0.0261) | load time: 0.0306 | back time: 0.5855 | lr: 0.00009956 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  201: loss: 0.0124 (0.0261) | load time: 0.0312 | back time: 0.5686 | lr: 0.00009954 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  251: loss: 0.0087 (0.0260) | load time: 0.0287 | back time: 0.5692 | lr: 0.00009952 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  301: loss: 0.0188 (0.0259) | load time: 0.0261 | back time: 0.5693 | lr: 0.00009950 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  351: loss: 0.0090 (0.0258) | load time: 0.0278 | back time: 0.5795 | lr: 0.00009948 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  401: loss: 0.0138 (0.0257) | load time: 0.0280 | back time: 0.5573 | lr: 0.00009946 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  451: loss: 0.0109 (0.0256) | load time: 0.0239 | back time: 0.5420 | lr: 0.00009944 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  501: loss: 0.0097 (0.0256) | load time: 0.0258 | back time: 0.5576 | lr: 0.00009942 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  551: loss: 0.0109 (0.0255) | load time: 0.0294 | back time: 0.5688 | lr: 0.00009940 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  601: loss: 0.0147 (0.0254) | load time: 0.0266 | back time: 0.5609 | lr: 0.00009938 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  651: loss: 0.0107 (0.0253) | load time: 0.0281 | back time: 0.5647 | lr: 0.00009936 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  701: loss: 0.0099 (0.0252) | load time: 0.0317 | back time: 0.5633 | lr: 0.00009934 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  751: loss: 0.0110 (0.0252) | load time: 0.0295 | back time: 0.5511 | lr: 0.00009931 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  801: loss: 0.0083 (0.0251) | load time: 0.0278 | back time: 0.5637 | lr: 0.00009929 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  851: loss: 0.0131 (0.0250) | load time: 0.0287 | back time: 0.5717 | lr: 0.00009927 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  901: loss: 0.0102 (0.0249) | load time: 0.0290 | back time: 0.5746 | lr: 0.00009925 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter  951: loss: 0.0102 (0.0249) | load time: 0.0263 | back time: 0.5513 | lr: 0.00009922 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter 1001: loss: 0.0107 (0.0248) | load time: 0.0300 | back time: 0.5539 | lr: 0.00009920 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter 1051: loss: 0.0090 (0.0247) | load time: 0.0322 | back time: 0.5766 | lr: 0.00009917 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter 1101: loss: 0.0129 (0.0246) | load time: 0.0273 | back time: 0.5614 | lr: 0.00009915 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+epoch  8, iter 1151: loss: 0.0093 (0.0246) | load time: 0.0214 | back time: 0.5740 | lr: 0.00009912 | best AP50 acc: 0.8144 | best AP70 acc: 0.6159 | best mAP acc: 0.6292 | best Score: 0.7006 | best Score epoch:  7 
+UAV_SEQS_2 | mAP50:90: 51.9332 | AP50: 77.7631 | AP70: 53.5662 
+UAV_SEQS_37 | mAP50:90: 94.1808 | AP50: 100.0000 | AP70: 98.6770 
+UAV_SEQS_45 | mAP50:90: 91.1132 | AP50: 100.0000 | AP70: 97.5144 
+UAV_SEQS_47 | mAP50:90: 85.9025 | AP50: 100.0000 | AP70: 96.3763 
+UAV_SEQS_55 | mAP50:90: 37.6572 | AP50: 60.7029 | AP70: 42.6884 
+UAV_SEQS_59 | mAP50:90: 59.4548 | AP50: 87.2893 | AP70: 63.1296 
+UAV_SEQS_6 | mAP50:90: 50.5582 | AP50: 65.5243 | AP70: 54.6364 
+UAV_SEQS_63 | mAP50:90: 0.0000 | AP50: 0.0000 | AP70: 0.0000 
+UAV_SEQS_65 | mAP50:90: 82.3590 | AP50: 96.5443 | AP70: 93.1234 
+UAV_SEQS_7 | mAP50:90: 61.0888 | AP50: 100.0000 | AP70: 70.2875 
+UAV_SEQS_71 | mAP50:90: 71.0378 | AP50: 97.4613 | AP70: 77.3405 
+UAV_SEQS_73 | mAP50:90: 60.2168 | AP50: 86.2585 | AP70: 63.9548 
+UAV_SEQS_74 | mAP50:90: 99.8834 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 21.4400 | AP50: 23.7624 | AP70: 23.7624 
+UAV_SEQS_8 | mAP50:90: 100.0000 | AP50: 100.0000 | AP70: 100.0000 
+Overall            | mAP50:95: 64.4093 | AP50: 79.0155 | AP70: 69.0061 
+epoch  9, iter    1: loss: 0.0194 (0.0246) | load time: 4.3154 | back time: 0.9234 | lr: 0.00009912 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter   51: loss: 0.0116 (0.0245) | load time: 0.0242 | back time: 0.5473 | lr: 0.00009910 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  101: loss: 0.0092 (0.0244) | load time: 0.0272 | back time: 0.5628 | lr: 0.00009907 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  151: loss: 0.0102 (0.0243) | load time: 0.0253 | back time: 0.5496 | lr: 0.00009905 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  201: loss: 0.0086 (0.0243) | load time: 0.0293 | back time: 0.5696 | lr: 0.00009902 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  251: loss: 0.0108 (0.0242) | load time: 0.0283 | back time: 0.5595 | lr: 0.00009899 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  301: loss: 0.0142 (0.0241) | load time: 0.0269 | back time: 0.5514 | lr: 0.00009896 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  351: loss: 0.0099 (0.0241) | load time: 0.0271 | back time: 0.5721 | lr: 0.00009894 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  401: loss: 0.0112 (0.0240) | load time: 0.0298 | back time: 0.5658 | lr: 0.00009891 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  451: loss: 0.0094 (0.0239) | load time: 0.0281 | back time: 0.5461 | lr: 0.00009888 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  501: loss: 0.0112 (0.0239) | load time: 0.0272 | back time: 0.5608 | lr: 0.00009885 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  551: loss: 0.0136 (0.0238) | load time: 0.0277 | back time: 0.5660 | lr: 0.00009882 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  601: loss: 0.0086 (0.0237) | load time: 0.0245 | back time: 0.5668 | lr: 0.00009879 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  651: loss: 0.0150 (0.0237) | load time: 0.0302 | back time: 0.5773 | lr: 0.00009876 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  701: loss: 0.0098 (0.0236) | load time: 0.0297 | back time: 0.5699 | lr: 0.00009873 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  751: loss: 0.0115 (0.0235) | load time: 0.0282 | back time: 0.5680 | lr: 0.00009870 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  801: loss: 0.0122 (0.0235) | load time: 0.0268 | back time: 0.5401 | lr: 0.00009867 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  851: loss: 0.0140 (0.0234) | load time: 0.0287 | back time: 0.5612 | lr: 0.00009864 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  901: loss: 0.0100 (0.0234) | load time: 0.0296 | back time: 0.5487 | lr: 0.00009861 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter  951: loss: 0.0104 (0.0233) | load time: 0.0328 | back time: 0.5633 | lr: 0.00009858 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter 1001: loss: 0.0104 (0.0232) | load time: 0.0301 | back time: 0.5534 | lr: 0.00009854 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter 1051: loss: 0.0087 (0.0232) | load time: 0.0282 | back time: 0.5582 | lr: 0.00009851 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter 1101: loss: 0.0113 (0.0231) | load time: 0.0281 | back time: 0.5560 | lr: 0.00009848 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+epoch  9, iter 1151: loss: 0.0092 (0.0231) | load time: 0.0228 | back time: 0.5379 | lr: 0.00009845 | best AP50 acc: 0.7902 | best AP70 acc: 0.6901 | best mAP acc: 0.6441 | best Score: 0.7117 | best Score epoch:  8 
+UAV_SEQS_2 | mAP50:90: 43.3137 | AP50: 79.1574 | AP70: 43.1202 
+UAV_SEQS_37 | mAP50:90: 86.9797 | AP50: 99.0099 | AP70: 91.9989 
+UAV_SEQS_45 | mAP50:90: 92.8186 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_47 | mAP50:90: 98.5761 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_55 | mAP50:90: 43.3040 | AP50: 65.6391 | AP70: 39.9107 
+UAV_SEQS_59 | mAP50:90: 70.7372 | AP50: 93.8265 | AP70: 76.0188 
+UAV_SEQS_6 | mAP50:90: 54.9712 | AP50: 73.4444 | AP70: 59.4749 
+UAV_SEQS_63 | mAP50:90: 47.8838 | AP50: 100.0000 | AP70: 23.4653 
+UAV_SEQS_65 | mAP50:90: 85.8272 | AP50: 97.7513 | AP70: 95.5089 
+UAV_SEQS_7 | mAP50:90: 98.5874 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_71 | mAP50:90: 74.7698 | AP50: 94.8608 | AP70: 82.4445 
+UAV_SEQS_73 | mAP50:90: 64.9160 | AP50: 84.7155 | AP70: 72.1659 
+UAV_SEQS_74 | mAP50:90: 100.0000 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 17.1298 | AP50: 34.0647 | AP70: 20.0669 
+UAV_SEQS_8 | mAP50:90: 34.9618 | AP50: 89.8030 | AP70: 16.0494 
+Overall            | mAP50:95: 68.2711 | AP50: 87.7644 | AP70: 69.5706 
+epoch 10, iter    1: loss: 0.0181 (0.0231) | load time: 4.3828 | back time: 0.8575 | lr: 0.00009844 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter   51: loss: 0.0097 (0.0230) | load time: 0.0293 | back time: 0.5454 | lr: 0.00009841 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  101: loss: 0.0086 (0.0229) | load time: 0.0234 | back time: 0.5514 | lr: 0.00009838 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  151: loss: 0.0103 (0.0229) | load time: 0.0289 | back time: 0.5692 | lr: 0.00009834 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  201: loss: 0.0092 (0.0228) | load time: 0.0284 | back time: 0.5550 | lr: 0.00009831 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  251: loss: 0.0094 (0.0228) | load time: 0.0290 | back time: 0.5664 | lr: 0.00009827 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  301: loss: 0.0088 (0.0227) | load time: 0.0273 | back time: 0.5600 | lr: 0.00009824 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  351: loss: 0.0093 (0.0227) | load time: 0.0246 | back time: 0.5614 | lr: 0.00009820 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  401: loss: 0.0119 (0.0226) | load time: 0.0270 | back time: 0.5625 | lr: 0.00009816 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  451: loss: 0.0107 (0.0225) | load time: 0.0264 | back time: 0.5692 | lr: 0.00009813 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  501: loss: 0.0129 (0.0225) | load time: 0.0248 | back time: 0.5640 | lr: 0.00009809 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  551: loss: 0.0083 (0.0224) | load time: 0.0282 | back time: 0.5665 | lr: 0.00009805 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  601: loss: 0.0139 (0.0224) | load time: 0.0311 | back time: 0.5551 | lr: 0.00009802 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  651: loss: 0.0082 (0.0223) | load time: 0.0260 | back time: 0.5615 | lr: 0.00009798 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  701: loss: 0.0123 (0.0223) | load time: 0.0302 | back time: 0.5590 | lr: 0.00009794 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  751: loss: 0.0120 (0.0222) | load time: 0.0301 | back time: 0.5647 | lr: 0.00009790 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  801: loss: 0.0085 (0.0222) | load time: 0.0273 | back time: 0.5417 | lr: 0.00009786 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  851: loss: 0.0092 (0.0221) | load time: 0.0263 | back time: 0.5543 | lr: 0.00009782 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  901: loss: 0.0092 (0.0221) | load time: 0.0270 | back time: 0.5571 | lr: 0.00009778 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter  951: loss: 0.0138 (0.0220) | load time: 0.0331 | back time: 0.5724 | lr: 0.00009774 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter 1001: loss: 0.0106 (0.0220) | load time: 0.0264 | back time: 0.5580 | lr: 0.00009770 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter 1051: loss: 0.0150 (0.0219) | load time: 0.0307 | back time: 0.5906 | lr: 0.00009766 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter 1101: loss: 0.0104 (0.0219) | load time: 0.0300 | back time: 0.5751 | lr: 0.00009762 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 10, iter 1151: loss: 0.0094 (0.0218) | load time: 0.0215 | back time: 0.5499 | lr: 0.00009758 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+UAV_SEQS_2 | mAP50:90: 47.2859 | AP50: 75.8908 | AP70: 43.7849 
+UAV_SEQS_37 | mAP50:90: 80.4141 | AP50: 98.8471 | AP70: 85.0427 
+UAV_SEQS_45 | mAP50:90: 96.0450 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_47 | mAP50:90: 99.6345 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_55 | mAP50:90: 31.1902 | AP50: 52.3902 | AP70: 33.7841 
+UAV_SEQS_59 | mAP50:90: 77.0203 | AP50: 97.3033 | AP70: 89.8235 
+UAV_SEQS_6 | mAP50:90: 51.4603 | AP50: 65.3610 | AP70: 52.1313 
+UAV_SEQS_63 | mAP50:90: 0.0815 | AP50: 0.3412 | AP70: 0.0034 
+UAV_SEQS_65 | mAP50:90: 83.8190 | AP50: 97.5954 | AP70: 94.7046 
+UAV_SEQS_7 | mAP50:90: 83.7735 | AP50: 100.0000 | AP70: 98.0990 
+UAV_SEQS_71 | mAP50:90: 67.7244 | AP50: 94.2974 | AP70: 74.4434 
+UAV_SEQS_73 | mAP50:90: 59.8878 | AP50: 88.5960 | AP70: 65.5228 
+UAV_SEQS_74 | mAP50:90: 99.4415 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 24.1227 | AP50: 34.1676 | AP70: 30.1507 
+UAV_SEQS_8 | mAP50:90: 98.9446 | AP50: 100.0000 | AP70: 100.0000 
+Overall            | mAP50:95: 67.5404 | AP50: 80.3246 | AP70: 71.8102 
+epoch 11, iter    1: loss: 0.0106 (0.0218) | load time: 3.6352 | back time: 0.8843 | lr: 0.00009758 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter   51: loss: 0.0132 (0.0218) | load time: 0.0279 | back time: 0.5443 | lr: 0.00009753 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  101: loss: 0.0100 (0.0217) | load time: 0.0278 | back time: 0.5697 | lr: 0.00009749 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  151: loss: 0.0088 (0.0217) | load time: 0.0264 | back time: 0.5556 | lr: 0.00009745 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  201: loss: 0.0082 (0.0216) | load time: 0.0268 | back time: 0.5723 | lr: 0.00009741 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  251: loss: 0.0124 (0.0216) | load time: 0.0269 | back time: 0.5627 | lr: 0.00009736 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  301: loss: 0.0086 (0.0215) | load time: 0.0271 | back time: 0.5451 | lr: 0.00009732 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  351: loss: 0.0098 (0.0215) | load time: 0.0266 | back time: 0.5600 | lr: 0.00009728 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  401: loss: 0.0105 (0.0214) | load time: 0.0255 | back time: 0.5788 | lr: 0.00009723 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  451: loss: 0.0113 (0.0214) | load time: 0.0275 | back time: 0.5693 | lr: 0.00009719 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  501: loss: 0.0084 (0.0213) | load time: 0.0262 | back time: 0.5482 | lr: 0.00009714 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  551: loss: 0.0130 (0.0213) | load time: 0.0287 | back time: 0.5682 | lr: 0.00009710 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  601: loss: 0.0095 (0.0212) | load time: 0.0265 | back time: 0.5710 | lr: 0.00009705 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  651: loss: 0.0155 (0.0212) | load time: 0.0283 | back time: 0.5760 | lr: 0.00009700 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  701: loss: 0.0134 (0.0212) | load time: 0.0278 | back time: 0.5578 | lr: 0.00009696 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  751: loss: 0.0093 (0.0211) | load time: 0.0282 | back time: 0.5512 | lr: 0.00009691 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  801: loss: 0.0114 (0.0211) | load time: 0.0277 | back time: 0.5597 | lr: 0.00009686 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  851: loss: 0.0086 (0.0210) | load time: 0.0292 | back time: 0.5493 | lr: 0.00009682 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  901: loss: 0.0101 (0.0210) | load time: 0.0271 | back time: 0.5586 | lr: 0.00009677 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter  951: loss: 0.0091 (0.0209) | load time: 0.0340 | back time: 0.5746 | lr: 0.00009672 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter 1001: loss: 0.0132 (0.0209) | load time: 0.0298 | back time: 0.5601 | lr: 0.00009667 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter 1051: loss: 0.0129 (0.0208) | load time: 0.0263 | back time: 0.5655 | lr: 0.00009662 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter 1101: loss: 0.0130 (0.0208) | load time: 0.0266 | back time: 0.5648 | lr: 0.00009657 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 11, iter 1151: loss: 0.0122 (0.0208) | load time: 0.0206 | back time: 0.5459 | lr: 0.00009652 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+UAV_SEQS_2 | mAP50:90: 53.8027 | AP50: 87.5107 | AP70: 53.0439 
+UAV_SEQS_37 | mAP50:90: 79.2359 | AP50: 98.7686 | AP70: 82.8305 
+UAV_SEQS_45 | mAP50:90: 91.0140 | AP50: 100.0000 | AP70: 98.9406 
+UAV_SEQS_47 | mAP50:90: 95.8958 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_55 | mAP50:90: 36.6837 | AP50: 61.8187 | AP70: 34.7709 
+UAV_SEQS_59 | mAP50:90: 62.3345 | AP50: 94.2917 | AP70: 63.6800 
+UAV_SEQS_6 | mAP50:90: 38.2616 | AP50: 57.6211 | AP70: 39.7957 
+UAV_SEQS_63 | mAP50:90: 29.7034 | AP50: 90.2272 | AP70: 5.7104 
+UAV_SEQS_65 | mAP50:90: 79.2737 | AP50: 96.3506 | AP70: 84.8695 
+UAV_SEQS_7 | mAP50:90: 81.8109 | AP50: 100.0000 | AP70: 92.3991 
+UAV_SEQS_71 | mAP50:90: 75.2495 | AP50: 95.8063 | AP70: 87.8960 
+UAV_SEQS_73 | mAP50:90: 61.4570 | AP50: 85.5082 | AP70: 73.1888 
+UAV_SEQS_74 | mAP50:90: 99.8834 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 11.2887 | AP50: 17.5052 | AP70: 13.9714 
+UAV_SEQS_8 | mAP50:90: 55.6185 | AP50: 97.6878 | AP70: 63.2689 
+Overall            | mAP50:95: 65.3671 | AP50: 86.8411 | AP70: 67.8707 
+epoch 12, iter    1: loss: 0.0087 (0.0208) | load time: 3.8280 | back time: 0.8432 | lr: 0.00009652 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter   51: loss: 0.0082 (0.0207) | load time: 0.0274 | back time: 0.5519 | lr: 0.00009647 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  101: loss: 0.0095 (0.0207) | load time: 0.0280 | back time: 0.5645 | lr: 0.00009642 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  151: loss: 0.0096 (0.0206) | load time: 0.0259 | back time: 0.5661 | lr: 0.00009637 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  201: loss: 0.0092 (0.0206) | load time: 0.0312 | back time: 0.5701 | lr: 0.00009632 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  251: loss: 0.0089 (0.0205) | load time: 0.0266 | back time: 0.5523 | lr: 0.00009627 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  301: loss: 0.0115 (0.0205) | load time: 0.0272 | back time: 0.5554 | lr: 0.00009622 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  351: loss: 0.0128 (0.0205) | load time: 0.0312 | back time: 0.5495 | lr: 0.00009617 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  401: loss: 0.0098 (0.0204) | load time: 0.0263 | back time: 0.5699 | lr: 0.00009611 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  451: loss: 0.0110 (0.0204) | load time: 0.0285 | back time: 0.5551 | lr: 0.00009606 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  501: loss: 0.0128 (0.0203) | load time: 0.0278 | back time: 0.5589 | lr: 0.00009601 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  551: loss: 0.0092 (0.0203) | load time: 0.0274 | back time: 0.5506 | lr: 0.00009596 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  601: loss: 0.0089 (0.0203) | load time: 0.0260 | back time: 0.5535 | lr: 0.00009590 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  651: loss: 0.0093 (0.0202) | load time: 0.0274 | back time: 0.5586 | lr: 0.00009585 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  701: loss: 0.0095 (0.0202) | load time: 0.0262 | back time: 0.5643 | lr: 0.00009579 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  751: loss: 0.0109 (0.0202) | load time: 0.0264 | back time: 0.5636 | lr: 0.00009574 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  801: loss: 0.0096 (0.0201) | load time: 0.0247 | back time: 0.5622 | lr: 0.00009568 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  851: loss: 0.0088 (0.0201) | load time: 0.0311 | back time: 0.5650 | lr: 0.00009563 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  901: loss: 0.0129 (0.0200) | load time: 0.0276 | back time: 0.5603 | lr: 0.00009557 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter  951: loss: 0.0084 (0.0200) | load time: 0.0265 | back time: 0.5554 | lr: 0.00009552 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter 1001: loss: 0.0100 (0.0200) | load time: 0.0277 | back time: 0.5620 | lr: 0.00009546 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter 1051: loss: 0.0102 (0.0199) | load time: 0.0271 | back time: 0.5662 | lr: 0.00009540 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter 1101: loss: 0.0097 (0.0199) | load time: 0.0273 | back time: 0.5646 | lr: 0.00009535 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 12, iter 1151: loss: 0.0083 (0.0198) | load time: 0.0223 | back time: 0.5502 | lr: 0.00009529 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+UAV_SEQS_2 | mAP50:90: 50.8258 | AP50: 73.5800 | AP70: 51.3751 
+UAV_SEQS_37 | mAP50:90: 84.5942 | AP50: 98.8911 | AP70: 91.2663 
+UAV_SEQS_45 | mAP50:90: 96.6320 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_47 | mAP50:90: 99.3878 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_55 | mAP50:90: 40.7475 | AP50: 63.4271 | AP70: 40.7495 
+UAV_SEQS_59 | mAP50:90: 69.5369 | AP50: 94.5001 | AP70: 81.5472 
+UAV_SEQS_6 | mAP50:90: 45.9726 | AP50: 63.6858 | AP70: 48.6715 
+UAV_SEQS_63 | mAP50:90: 34.7289 | AP50: 88.3582 | AP70: 4.7033 
+UAV_SEQS_65 | mAP50:90: 79.8887 | AP50: 93.6197 | AP70: 92.4816 
+UAV_SEQS_7 | mAP50:90: 87.0473 | AP50: 100.0000 | AP70: 96.6547 
+UAV_SEQS_71 | mAP50:90: 54.9180 | AP50: 96.5723 | AP70: 57.8511 
+UAV_SEQS_73 | mAP50:90: 62.9185 | AP50: 86.6247 | AP70: 69.0728 
+UAV_SEQS_74 | mAP50:90: 100.0000 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 25.7381 | AP50: 38.9378 | AP70: 33.9050 
+UAV_SEQS_8 | mAP50:90: 51.8276 | AP50: 100.0000 | AP70: 47.8218 
+Overall            | mAP50:95: 66.7821 | AP50: 87.0793 | AP70: 69.1354 
+epoch 13, iter    1: loss: 0.0119 (0.0198) | load time: 3.8891 | back time: 0.9479 | lr: 0.00009529 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter   51: loss: 0.0096 (0.0198) | load time: 0.0264 | back time: 0.5397 | lr: 0.00009523 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  101: loss: 0.0094 (0.0198) | load time: 0.0299 | back time: 0.5736 | lr: 0.00009517 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  151: loss: 0.0099 (0.0197) | load time: 0.0286 | back time: 0.5722 | lr: 0.00009511 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  201: loss: 0.0109 (0.0197) | load time: 0.0270 | back time: 0.5583 | lr: 0.00009506 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  251: loss: 0.0089 (0.0197) | load time: 0.0276 | back time: 0.5713 | lr: 0.00009500 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  301: loss: 0.0099 (0.0196) | load time: 0.0273 | back time: 0.5471 | lr: 0.00009494 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  351: loss: 0.0090 (0.0196) | load time: 0.0312 | back time: 0.5493 | lr: 0.00009488 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  401: loss: 0.0086 (0.0195) | load time: 0.0291 | back time: 0.5556 | lr: 0.00009482 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  451: loss: 0.0088 (0.0195) | load time: 0.0264 | back time: 0.5538 | lr: 0.00009476 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  501: loss: 0.0081 (0.0195) | load time: 0.0279 | back time: 0.5640 | lr: 0.00009470 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  551: loss: 0.0099 (0.0194) | load time: 0.0267 | back time: 0.5547 | lr: 0.00009464 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  601: loss: 0.0103 (0.0194) | load time: 0.0295 | back time: 0.5694 | lr: 0.00009457 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  651: loss: 0.0090 (0.0194) | load time: 0.0276 | back time: 0.5535 | lr: 0.00009451 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  701: loss: 0.0100 (0.0193) | load time: 0.0291 | back time: 0.5774 | lr: 0.00009445 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  751: loss: 0.0102 (0.0193) | load time: 0.0333 | back time: 0.5594 | lr: 0.00009439 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  801: loss: 0.0086 (0.0193) | load time: 0.0312 | back time: 0.5577 | lr: 0.00009433 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  851: loss: 0.0090 (0.0192) | load time: 0.0307 | back time: 0.5663 | lr: 0.00009426 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  901: loss: 0.0085 (0.0192) | load time: 0.0276 | back time: 0.5535 | lr: 0.00009420 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter  951: loss: 0.0100 (0.0192) | load time: 0.0268 | back time: 0.5714 | lr: 0.00009414 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter 1001: loss: 0.0110 (0.0191) | load time: 0.0290 | back time: 0.5669 | lr: 0.00009407 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter 1051: loss: 0.0082 (0.0191) | load time: 0.0261 | back time: 0.5667 | lr: 0.00009401 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter 1101: loss: 0.0086 (0.0191) | load time: 0.0255 | back time: 0.5501 | lr: 0.00009394 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 13, iter 1151: loss: 0.0096 (0.0190) | load time: 0.0248 | back time: 0.5494 | lr: 0.00009388 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+UAV_SEQS_2 | mAP50:90: 49.8468 | AP50: 83.7179 | AP70: 44.4551 
+UAV_SEQS_37 | mAP50:90: 91.7223 | AP50: 100.0000 | AP70: 98.9088 
+UAV_SEQS_45 | mAP50:90: 90.7155 | AP50: 100.0000 | AP70: 93.7871 
+UAV_SEQS_47 | mAP50:90: 97.4060 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_55 | mAP50:90: 35.5738 | AP50: 60.6682 | AP70: 40.5976 
+UAV_SEQS_59 | mAP50:90: 73.2308 | AP50: 96.9297 | AP70: 79.0153 
+UAV_SEQS_6 | mAP50:90: 41.7551 | AP50: 65.5797 | AP70: 41.1838 
+UAV_SEQS_63 | mAP50:90: 0.9694 | AP50: 3.2689 | AP70: 0.1980 
+UAV_SEQS_65 | mAP50:90: 75.4356 | AP50: 96.2508 | AP70: 91.2802 
+UAV_SEQS_7 | mAP50:90: 93.1050 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_71 | mAP50:90: 71.4773 | AP50: 95.5388 | AP70: 85.7683 
+UAV_SEQS_73 | mAP50:90: 67.9422 | AP50: 91.4179 | AP70: 72.8088 
+UAV_SEQS_74 | mAP50:90: 100.0000 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 36.0204 | AP50: 42.8407 | AP70: 41.9495 
+UAV_SEQS_8 | mAP50:90: 93.1968 | AP50: 100.0000 | AP70: 100.0000 
+Overall            | mAP50:95: 69.1917 | AP50: 83.1784 | AP70: 73.9018 
+epoch 14, iter    1: loss: 0.0087 (0.0190) | load time: 3.7951 | back time: 0.9061 | lr: 0.00009388 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter   51: loss: 0.0101 (0.0190) | load time: 0.0274 | back time: 0.5459 | lr: 0.00009381 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  101: loss: 0.0081 (0.0190) | load time: 0.0290 | back time: 0.5679 | lr: 0.00009375 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  151: loss: 0.0116 (0.0189) | load time: 0.0273 | back time: 0.5645 | lr: 0.00009368 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  201: loss: 0.0086 (0.0189) | load time: 0.0283 | back time: 0.5711 | lr: 0.00009361 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  251: loss: 0.0095 (0.0189) | load time: 0.0287 | back time: 0.5581 | lr: 0.00009355 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  301: loss: 0.0100 (0.0189) | load time: 0.0274 | back time: 0.5671 | lr: 0.00009348 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  351: loss: 0.0085 (0.0188) | load time: 0.0281 | back time: 0.5545 | lr: 0.00009341 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  401: loss: 0.0091 (0.0188) | load time: 0.0304 | back time: 0.5645 | lr: 0.00009335 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  451: loss: 0.0090 (0.0188) | load time: 0.0311 | back time: 0.5714 | lr: 0.00009328 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  501: loss: 0.0091 (0.0187) | load time: 0.0268 | back time: 0.5625 | lr: 0.00009321 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  551: loss: 0.0094 (0.0187) | load time: 0.0317 | back time: 0.5746 | lr: 0.00009314 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  601: loss: 0.0085 (0.0187) | load time: 0.0270 | back time: 0.5573 | lr: 0.00009307 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  651: loss: 0.0088 (0.0186) | load time: 0.0272 | back time: 0.5739 | lr: 0.00009300 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  701: loss: 0.0084 (0.0186) | load time: 0.0277 | back time: 0.5540 | lr: 0.00009293 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  751: loss: 0.0086 (0.0186) | load time: 0.0291 | back time: 0.5453 | lr: 0.00009286 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  801: loss: 0.0091 (0.0186) | load time: 0.0324 | back time: 0.5692 | lr: 0.00009279 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  851: loss: 0.0081 (0.0185) | load time: 0.0270 | back time: 0.5604 | lr: 0.00009272 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  901: loss: 0.0082 (0.0185) | load time: 0.0288 | back time: 0.5803 | lr: 0.00009265 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter  951: loss: 0.0087 (0.0185) | load time: 0.0257 | back time: 0.5518 | lr: 0.00009258 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter 1001: loss: 0.0093 (0.0184) | load time: 0.0264 | back time: 0.5484 | lr: 0.00009251 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter 1051: loss: 0.0102 (0.0184) | load time: 0.0257 | back time: 0.5443 | lr: 0.00009244 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter 1101: loss: 0.0092 (0.0184) | load time: 0.0301 | back time: 0.5674 | lr: 0.00009237 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+epoch 14, iter 1151: loss: 0.0101 (0.0183) | load time: 0.0244 | back time: 0.5431 | lr: 0.00009230 | best AP50 acc: 0.8776 | best AP70 acc: 0.6957 | best mAP acc: 0.6827 | best Score: 0.7633 | best Score epoch:  9 
+UAV_SEQS_2 | mAP50:90: 51.3297 | AP50: 87.9247 | AP70: 54.4009 
+UAV_SEQS_37 | mAP50:90: 90.7827 | AP50: 100.0000 | AP70: 93.8553 
+UAV_SEQS_45 | mAP50:90: 89.4971 | AP50: 100.0000 | AP70: 95.5099 
+UAV_SEQS_47 | mAP50:90: 97.4173 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_55 | mAP50:90: 31.6029 | AP50: 51.9167 | AP70: 34.7909 
+UAV_SEQS_59 | mAP50:90: 69.3251 | AP50: 93.3732 | AP70: 72.6299 
+UAV_SEQS_6 | mAP50:90: 56.6570 | AP50: 87.6312 | AP70: 58.9478 
+UAV_SEQS_63 | mAP50:90: 26.4375 | AP50: 82.5181 | AP70: 6.4659 
+UAV_SEQS_65 | mAP50:90: 79.4444 | AP50: 94.5214 | AP70: 90.8696 
+UAV_SEQS_7 | mAP50:90: 94.7002 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_71 | mAP50:90: 60.5309 | AP50: 92.2166 | AP70: 66.1972 
+UAV_SEQS_73 | mAP50:90: 59.2845 | AP50: 82.1556 | AP70: 69.1108 
+UAV_SEQS_74 | mAP50:90: 99.6641 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 30.6917 | AP50: 43.8373 | AP70: 40.2110 
+UAV_SEQS_8 | mAP50:90: 94.0629 | AP50: 100.0000 | AP70: 100.0000 
+Overall            | mAP50:95: 70.8400 | AP50: 88.5864 | AP70: 73.6423 
+epoch 15, iter    1: loss: 0.0090 (0.0183) | load time: 3.7184 | back time: 0.8228 | lr: 0.00009229 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter   51: loss: 0.0089 (0.0183) | load time: 0.0318 | back time: 0.5488 | lr: 0.00009222 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  101: loss: 0.0085 (0.0183) | load time: 0.0233 | back time: 0.5556 | lr: 0.00009215 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  151: loss: 0.0086 (0.0183) | load time: 0.0261 | back time: 0.5538 | lr: 0.00009207 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  201: loss: 0.0086 (0.0182) | load time: 0.0277 | back time: 0.5766 | lr: 0.00009200 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  251: loss: 0.0086 (0.0182) | load time: 0.0289 | back time: 0.5668 | lr: 0.00009193 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  301: loss: 0.0089 (0.0182) | load time: 0.0280 | back time: 0.5608 | lr: 0.00009185 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  351: loss: 0.0088 (0.0181) | load time: 0.0278 | back time: 0.5777 | lr: 0.00009178 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  401: loss: 0.0092 (0.0181) | load time: 0.0258 | back time: 0.5603 | lr: 0.00009170 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  451: loss: 0.0093 (0.0181) | load time: 0.0279 | back time: 0.5714 | lr: 0.00009163 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  501: loss: 0.0092 (0.0181) | load time: 0.0275 | back time: 0.5587 | lr: 0.00009155 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  551: loss: 0.0086 (0.0180) | load time: 0.0268 | back time: 0.5494 | lr: 0.00009148 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  601: loss: 0.0082 (0.0180) | load time: 0.0312 | back time: 0.5616 | lr: 0.00009140 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  651: loss: 0.0090 (0.0180) | load time: 0.0276 | back time: 0.5530 | lr: 0.00009133 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  701: loss: 0.0086 (0.0180) | load time: 0.0256 | back time: 0.5571 | lr: 0.00009125 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  751: loss: 0.0085 (0.0179) | load time: 0.0267 | back time: 0.5565 | lr: 0.00009117 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  801: loss: 0.0086 (0.0179) | load time: 0.0275 | back time: 0.5557 | lr: 0.00009110 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  851: loss: 0.0088 (0.0179) | load time: 0.0269 | back time: 0.5538 | lr: 0.00009102 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  901: loss: 0.0088 (0.0179) | load time: 0.0306 | back time: 0.5679 | lr: 0.00009094 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter  951: loss: 0.0116 (0.0178) | load time: 0.0266 | back time: 0.5499 | lr: 0.00009086 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter 1001: loss: 0.0092 (0.0178) | load time: 0.0293 | back time: 0.5804 | lr: 0.00009078 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter 1051: loss: 0.0099 (0.0178) | load time: 0.0261 | back time: 0.5439 | lr: 0.00009071 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter 1101: loss: 0.0123 (0.0178) | load time: 0.0266 | back time: 0.5622 | lr: 0.00009063 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 15, iter 1151: loss: 0.0082 (0.0177) | load time: 0.0293 | back time: 0.5582 | lr: 0.00009055 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+UAV_SEQS_2 | mAP50:90: 41.4025 | AP50: 75.3329 | AP70: 39.8228 
+UAV_SEQS_37 | mAP50:90: 77.3153 | AP50: 94.0655 | AP70: 77.3195 
+UAV_SEQS_45 | mAP50:90: 95.8387 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_47 | mAP50:90: 99.8871 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_55 | mAP50:90: 41.1227 | AP50: 59.9028 | AP70: 46.4590 
+UAV_SEQS_59 | mAP50:90: 72.0892 | AP50: 96.7155 | AP70: 76.9027 
+UAV_SEQS_6 | mAP50:90: 46.4729 | AP50: 59.8851 | AP70: 50.1463 
+UAV_SEQS_63 | mAP50:90: 26.8304 | AP50: 62.8586 | AP70: 18.0872 
+UAV_SEQS_65 | mAP50:90: 81.9589 | AP50: 95.1522 | AP70: 91.6143 
+UAV_SEQS_7 | mAP50:90: 70.4269 | AP50: 100.0000 | AP70: 97.8396 
+UAV_SEQS_71 | mAP50:90: 53.2795 | AP50: 85.8418 | AP70: 54.0528 
+UAV_SEQS_73 | mAP50:90: 63.8144 | AP50: 86.1584 | AP70: 74.1767 
+UAV_SEQS_74 | mAP50:90: 100.0000 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 12.4615 | AP50: 17.3254 | AP70: 16.7739 
+UAV_SEQS_8 | mAP50:90: 64.1461 | AP50: 100.0000 | AP70: 85.8848 
+Overall            | mAP50:95: 65.2662 | AP50: 83.7992 | AP70: 71.3579 
+epoch 16, iter    1: loss: 0.0088 (0.0177) | load time: 3.7562 | back time: 0.9494 | lr: 0.00009054 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter   51: loss: 0.0096 (0.0177) | load time: 0.0285 | back time: 0.5543 | lr: 0.00009047 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  101: loss: 0.0084 (0.0177) | load time: 0.0267 | back time: 0.5700 | lr: 0.00009039 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  151: loss: 0.0081 (0.0176) | load time: 0.0279 | back time: 0.5698 | lr: 0.00009031 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  201: loss: 0.0087 (0.0176) | load time: 0.0315 | back time: 0.5690 | lr: 0.00009022 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  251: loss: 0.0096 (0.0176) | load time: 0.0259 | back time: 0.5586 | lr: 0.00009014 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  301: loss: 0.0087 (0.0176) | load time: 0.0270 | back time: 0.5596 | lr: 0.00009006 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  351: loss: 0.0089 (0.0175) | load time: 0.0275 | back time: 0.5627 | lr: 0.00008998 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  401: loss: 0.0085 (0.0175) | load time: 0.0236 | back time: 0.5544 | lr: 0.00008990 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  451: loss: 0.0081 (0.0175) | load time: 0.0285 | back time: 0.5566 | lr: 0.00008982 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  501: loss: 0.0086 (0.0175) | load time: 0.0276 | back time: 0.5410 | lr: 0.00008974 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  551: loss: 0.0090 (0.0174) | load time: 0.0290 | back time: 0.5740 | lr: 0.00008965 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  601: loss: 0.0089 (0.0174) | load time: 0.0251 | back time: 0.5675 | lr: 0.00008957 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  651: loss: 0.0082 (0.0174) | load time: 0.0275 | back time: 0.5579 | lr: 0.00008949 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  701: loss: 0.0084 (0.0174) | load time: 0.0284 | back time: 0.5709 | lr: 0.00008940 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  751: loss: 0.0086 (0.0174) | load time: 0.0279 | back time: 0.5631 | lr: 0.00008932 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  801: loss: 0.0086 (0.0173) | load time: 0.0294 | back time: 0.5765 | lr: 0.00008924 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  851: loss: 0.0087 (0.0173) | load time: 0.0290 | back time: 0.5615 | lr: 0.00008915 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  901: loss: 0.0082 (0.0173) | load time: 0.0268 | back time: 0.5656 | lr: 0.00008907 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter  951: loss: 0.0088 (0.0173) | load time: 0.0250 | back time: 0.5502 | lr: 0.00008898 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter 1001: loss: 0.0089 (0.0172) | load time: 0.0267 | back time: 0.5687 | lr: 0.00008890 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter 1051: loss: 0.0104 (0.0172) | load time: 0.0309 | back time: 0.5705 | lr: 0.00008881 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter 1101: loss: 0.0095 (0.0172) | load time: 0.0282 | back time: 0.5671 | lr: 0.00008873 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 16, iter 1151: loss: 0.0082 (0.0172) | load time: 0.0310 | back time: 0.5499 | lr: 0.00008864 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+UAV_SEQS_2 | mAP50:90: 42.1180 | AP50: 85.3119 | AP70: 36.2886 
+UAV_SEQS_37 | mAP50:90: 88.9623 | AP50: 98.8614 | AP70: 93.1572 
+UAV_SEQS_45 | mAP50:90: 94.6385 | AP50: 100.0000 | AP70: 97.6332 
+UAV_SEQS_47 | mAP50:90: 83.0678 | AP50: 97.9484 | AP70: 89.8033 
+UAV_SEQS_55 | mAP50:90: 30.7289 | AP50: 50.3713 | AP70: 31.1119 
+UAV_SEQS_59 | mAP50:90: 79.1710 | AP50: 96.9193 | AP70: 87.6113 
+UAV_SEQS_6 | mAP50:90: 51.4296 | AP50: 65.7624 | AP70: 54.0821 
+UAV_SEQS_63 | mAP50:90: 29.8377 | AP50: 87.3847 | AP70: 20.9588 
+UAV_SEQS_65 | mAP50:90: 73.6471 | AP50: 94.9395 | AP70: 84.6902 
+UAV_SEQS_7 | mAP50:90: 91.5266 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_71 | mAP50:90: 59.6434 | AP50: 93.7131 | AP70: 63.9781 
+UAV_SEQS_73 | mAP50:90: 65.6343 | AP50: 86.2875 | AP70: 76.5095 
+UAV_SEQS_74 | mAP50:90: 99.3971 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 30.6237 | AP50: 47.7413 | AP70: 40.0541 
+UAV_SEQS_8 | mAP50:90: 90.3863 | AP50: 100.0000 | AP70: 100.0000 
+Overall            | mAP50:95: 69.5053 | AP50: 88.1487 | AP70: 74.5207 
+epoch 17, iter    1: loss: 0.0084 (0.0172) | load time: 3.7314 | back time: 0.7885 | lr: 0.00008864 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter   51: loss: 0.0084 (0.0171) | load time: 0.0270 | back time: 0.5483 | lr: 0.00008855 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  101: loss: 0.0083 (0.0171) | load time: 0.0321 | back time: 0.5612 | lr: 0.00008847 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  151: loss: 0.0088 (0.0171) | load time: 0.0284 | back time: 0.5744 | lr: 0.00008838 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  201: loss: 0.0087 (0.0171) | load time: 0.0256 | back time: 0.5564 | lr: 0.00008829 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  251: loss: 0.0086 (0.0171) | load time: 0.0264 | back time: 0.5519 | lr: 0.00008820 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  301: loss: 0.0093 (0.0170) | load time: 0.0309 | back time: 0.5687 | lr: 0.00008812 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  351: loss: 0.0088 (0.0170) | load time: 0.0264 | back time: 0.5553 | lr: 0.00008803 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  401: loss: 0.0080 (0.0170) | load time: 0.0267 | back time: 0.5590 | lr: 0.00008794 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  451: loss: 0.0085 (0.0170) | load time: 0.0277 | back time: 0.5757 | lr: 0.00008785 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  501: loss: 0.0081 (0.0169) | load time: 0.0256 | back time: 0.5517 | lr: 0.00008776 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  551: loss: 0.0093 (0.0169) | load time: 0.0268 | back time: 0.5662 | lr: 0.00008768 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  601: loss: 0.0092 (0.0169) | load time: 0.0257 | back time: 0.5580 | lr: 0.00008759 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  651: loss: 0.0088 (0.0169) | load time: 0.0271 | back time: 0.5919 | lr: 0.00008750 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  701: loss: 0.0087 (0.0169) | load time: 0.0276 | back time: 0.5675 | lr: 0.00008741 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  751: loss: 0.0088 (0.0168) | load time: 0.0275 | back time: 0.5403 | lr: 0.00008732 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  801: loss: 0.0087 (0.0168) | load time: 0.0286 | back time: 0.5657 | lr: 0.00008723 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  851: loss: 0.0087 (0.0168) | load time: 0.0276 | back time: 0.5486 | lr: 0.00008714 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  901: loss: 0.0085 (0.0168) | load time: 0.0271 | back time: 0.5591 | lr: 0.00008704 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter  951: loss: 0.0093 (0.0168) | load time: 0.0283 | back time: 0.5722 | lr: 0.00008695 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter 1001: loss: 0.0099 (0.0167) | load time: 0.0280 | back time: 0.5573 | lr: 0.00008686 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter 1051: loss: 0.0109 (0.0167) | load time: 0.0296 | back time: 0.5627 | lr: 0.00008677 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter 1101: loss: 0.0100 (0.0167) | load time: 0.0303 | back time: 0.5741 | lr: 0.00008668 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 17, iter 1151: loss: 0.0085 (0.0167) | load time: 0.0270 | back time: 0.5470 | lr: 0.00008659 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+UAV_SEQS_2 | mAP50:90: 35.9852 | AP50: 65.3976 | AP70: 28.8922 
+UAV_SEQS_37 | mAP50:90: 76.5344 | AP50: 100.0000 | AP70: 84.1805 
+UAV_SEQS_45 | mAP50:90: 87.1805 | AP50: 100.0000 | AP70: 95.0848 
+UAV_SEQS_47 | mAP50:90: 90.8983 | AP50: 100.0000 | AP70: 98.8496 
+UAV_SEQS_55 | mAP50:90: 36.4691 | AP50: 58.6543 | AP70: 37.3411 
+UAV_SEQS_59 | mAP50:90: 53.3349 | AP50: 89.5816 | AP70: 56.9969 
+UAV_SEQS_6 | mAP50:90: 53.6567 | AP50: 65.8774 | AP70: 58.9737 
+UAV_SEQS_63 | mAP50:90: 24.7977 | AP50: 77.5870 | AP70: 6.5529 
+UAV_SEQS_65 | mAP50:90: 81.2723 | AP50: 96.7940 | AP70: 90.9498 
+UAV_SEQS_7 | mAP50:90: 86.3468 | AP50: 100.0000 | AP70: 96.6005 
+UAV_SEQS_71 | mAP50:90: 58.8748 | AP50: 89.7163 | AP70: 67.9939 
+UAV_SEQS_73 | mAP50:90: 58.6059 | AP50: 77.7543 | AP70: 65.6905 
+UAV_SEQS_74 | mAP50:90: 96.1807 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 20.5904 | AP50: 37.3863 | AP70: 27.6477 
+UAV_SEQS_8 | mAP50:90: 66.9967 | AP50: 100.0000 | AP70: 85.9243 
+Overall            | mAP50:95: 63.2851 | AP50: 85.8807 | AP70: 68.9794 
+epoch 18, iter    1: loss: 0.0086 (0.0167) | load time: 3.5939 | back time: 0.7852 | lr: 0.00008658 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter   51: loss: 0.0084 (0.0167) | load time: 0.0252 | back time: 0.5409 | lr: 0.00008649 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  101: loss: 0.0083 (0.0166) | load time: 0.0254 | back time: 0.5541 | lr: 0.00008640 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  151: loss: 0.0090 (0.0166) | load time: 0.0257 | back time: 0.5622 | lr: 0.00008630 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  201: loss: 0.0090 (0.0166) | load time: 0.0290 | back time: 0.5733 | lr: 0.00008621 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  251: loss: 0.0081 (0.0166) | load time: 0.0301 | back time: 0.5455 | lr: 0.00008612 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  301: loss: 0.0107 (0.0166) | load time: 0.0244 | back time: 0.5514 | lr: 0.00008602 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  351: loss: 0.0083 (0.0165) | load time: 0.0269 | back time: 0.5696 | lr: 0.00008593 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  401: loss: 0.0089 (0.0165) | load time: 0.0276 | back time: 0.5745 | lr: 0.00008583 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  451: loss: 0.0084 (0.0165) | load time: 0.0305 | back time: 0.5623 | lr: 0.00008574 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  501: loss: 0.0090 (0.0165) | load time: 0.0268 | back time: 0.5577 | lr: 0.00008564 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  551: loss: 0.0080 (0.0165) | load time: 0.0272 | back time: 0.5590 | lr: 0.00008555 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  601: loss: 0.0083 (0.0164) | load time: 0.0250 | back time: 0.5524 | lr: 0.00008545 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  651: loss: 0.0084 (0.0164) | load time: 0.0276 | back time: 0.5545 | lr: 0.00008536 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  701: loss: 0.0084 (0.0164) | load time: 0.0261 | back time: 0.5476 | lr: 0.00008526 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  751: loss: 0.0089 (0.0164) | load time: 0.0315 | back time: 0.5830 | lr: 0.00008517 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  801: loss: 0.0083 (0.0164) | load time: 0.0287 | back time: 0.5571 | lr: 0.00008507 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  851: loss: 0.0083 (0.0163) | load time: 0.0279 | back time: 0.5644 | lr: 0.00008497 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  901: loss: 0.0088 (0.0163) | load time: 0.0270 | back time: 0.5616 | lr: 0.00008488 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter  951: loss: 0.0089 (0.0163) | load time: 0.0250 | back time: 0.5726 | lr: 0.00008478 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter 1001: loss: 0.0086 (0.0163) | load time: 0.0224 | back time: 0.5620 | lr: 0.00008468 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter 1051: loss: 0.0085 (0.0163) | load time: 0.0250 | back time: 0.5603 | lr: 0.00008458 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter 1101: loss: 0.0087 (0.0163) | load time: 0.0282 | back time: 0.5629 | lr: 0.00008449 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 18, iter 1151: loss: 0.0081 (0.0162) | load time: 0.0243 | back time: 0.5314 | lr: 0.00008439 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+UAV_SEQS_2 | mAP50:90: 25.0350 | AP50: 61.9494 | AP70: 14.5193 
+UAV_SEQS_37 | mAP50:90: 82.2491 | AP50: 98.6007 | AP70: 86.8455 
+UAV_SEQS_45 | mAP50:90: 89.7814 | AP50: 100.0000 | AP70: 95.2899 
+UAV_SEQS_47 | mAP50:90: 88.2588 | AP50: 100.0000 | AP70: 91.4957 
+UAV_SEQS_55 | mAP50:90: 35.4630 | AP50: 54.9094 | AP70: 32.9603 
+UAV_SEQS_59 | mAP50:90: 69.5740 | AP50: 96.5759 | AP70: 76.6544 
+UAV_SEQS_6 | mAP50:90: 51.3877 | AP50: 70.5743 | AP70: 51.7441 
+UAV_SEQS_63 | mAP50:90: 18.6786 | AP50: 64.3954 | AP70: 10.0435 
+UAV_SEQS_65 | mAP50:90: 82.3799 | AP50: 96.1629 | AP70: 92.6809 
+UAV_SEQS_7 | mAP50:90: 88.7325 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_71 | mAP50:90: 56.8786 | AP50: 91.4189 | AP70: 63.3801 
+UAV_SEQS_73 | mAP50:90: 66.1414 | AP50: 84.4930 | AP70: 76.4412 
+UAV_SEQS_74 | mAP50:90: 100.0000 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 23.9760 | AP50: 39.5070 | AP70: 31.7417 
+UAV_SEQS_8 | mAP50:90: 82.1814 | AP50: 100.0000 | AP70: 96.4840 
+Overall            | mAP50:95: 66.4217 | AP50: 85.9409 | AP70: 70.3870 
+epoch 19, iter    1: loss: 0.0083 (0.0162) | load time: 3.7903 | back time: 0.8879 | lr: 0.00008438 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter   51: loss: 0.0085 (0.0162) | load time: 0.0298 | back time: 0.5515 | lr: 0.00008428 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  101: loss: 0.0081 (0.0162) | load time: 0.0254 | back time: 0.5648 | lr: 0.00008419 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  151: loss: 0.0081 (0.0162) | load time: 0.0264 | back time: 0.5507 | lr: 0.00008409 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  201: loss: 0.0087 (0.0162) | load time: 0.0270 | back time: 0.5611 | lr: 0.00008399 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  251: loss: 0.0084 (0.0161) | load time: 0.0266 | back time: 0.5494 | lr: 0.00008389 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  301: loss: 0.0083 (0.0161) | load time: 0.0259 | back time: 0.5481 | lr: 0.00008379 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  351: loss: 0.0083 (0.0161) | load time: 0.0249 | back time: 0.5508 | lr: 0.00008369 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  401: loss: 0.0085 (0.0161) | load time: 0.0308 | back time: 0.5611 | lr: 0.00008359 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  451: loss: 0.0090 (0.0161) | load time: 0.0245 | back time: 0.5514 | lr: 0.00008349 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  501: loss: 0.0082 (0.0161) | load time: 0.0269 | back time: 0.5685 | lr: 0.00008339 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  551: loss: 0.0091 (0.0160) | load time: 0.0279 | back time: 0.5568 | lr: 0.00008329 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  601: loss: 0.0086 (0.0160) | load time: 0.0249 | back time: 0.5644 | lr: 0.00008318 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  651: loss: 0.0085 (0.0160) | load time: 0.0266 | back time: 0.5607 | lr: 0.00008308 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  701: loss: 0.0086 (0.0160) | load time: 0.0316 | back time: 0.5558 | lr: 0.00008298 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  751: loss: 0.0080 (0.0160) | load time: 0.0272 | back time: 0.5418 | lr: 0.00008288 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  801: loss: 0.0090 (0.0159) | load time: 0.0284 | back time: 0.5528 | lr: 0.00008278 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  851: loss: 0.0083 (0.0159) | load time: 0.0308 | back time: 0.5606 | lr: 0.00008267 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  901: loss: 0.0083 (0.0159) | load time: 0.0266 | back time: 0.5702 | lr: 0.00008257 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter  951: loss: 0.0081 (0.0159) | load time: 0.0277 | back time: 0.5639 | lr: 0.00008247 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter 1001: loss: 0.0086 (0.0159) | load time: 0.0305 | back time: 0.5636 | lr: 0.00008237 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter 1051: loss: 0.0085 (0.0159) | load time: 0.0293 | back time: 0.5663 | lr: 0.00008226 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter 1101: loss: 0.0091 (0.0158) | load time: 0.0276 | back time: 0.5588 | lr: 0.00008216 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 19, iter 1151: loss: 0.0079 (0.0158) | load time: 0.0254 | back time: 0.5338 | lr: 0.00008205 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+UAV_SEQS_2 | mAP50:90: 22.8675 | AP50: 60.5248 | AP70: 13.6938 
+UAV_SEQS_37 | mAP50:90: 84.8145 | AP50: 100.0000 | AP70: 90.0246 
+UAV_SEQS_45 | mAP50:90: 85.7529 | AP50: 100.0000 | AP70: 91.4842 
+UAV_SEQS_47 | mAP50:90: 86.5203 | AP50: 100.0000 | AP70: 96.0016 
+UAV_SEQS_55 | mAP50:90: 41.9013 | AP50: 64.5480 | AP70: 43.4203 
+UAV_SEQS_59 | mAP50:90: 63.3973 | AP50: 92.9746 | AP70: 65.3211 
+UAV_SEQS_6 | mAP50:90: 62.5693 | AP50: 79.8981 | AP70: 62.9084 
+UAV_SEQS_63 | mAP50:90: 33.7746 | AP50: 73.1662 | AP70: 25.3988 
+UAV_SEQS_65 | mAP50:90: 77.7998 | AP50: 96.2766 | AP70: 86.0060 
+UAV_SEQS_7 | mAP50:90: 92.4542 | AP50: 100.0000 | AP70: 98.9223 
+UAV_SEQS_71 | mAP50:90: 50.6974 | AP50: 83.7934 | AP70: 57.3815 
+UAV_SEQS_73 | mAP50:90: 67.7925 | AP50: 89.0397 | AP70: 78.0024 
+UAV_SEQS_74 | mAP50:90: 99.8667 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 31.0312 | AP50: 43.7716 | AP70: 36.6503 
+UAV_SEQS_8 | mAP50:90: 73.6451 | AP50: 100.0000 | AP70: 90.5471 
+Overall            | mAP50:95: 67.0664 | AP50: 87.3578 | AP70: 72.1531 
+epoch 20, iter    1: loss: 0.0091 (0.0158) | load time: 3.5952 | back time: 0.9132 | lr: 0.00008205 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter   51: loss: 0.0078 (0.0158) | load time: 0.0254 | back time: 0.5582 | lr: 0.00008195 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  101: loss: 0.0085 (0.0158) | load time: 0.0304 | back time: 0.5572 | lr: 0.00008184 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  151: loss: 0.0084 (0.0158) | load time: 0.0294 | back time: 0.5688 | lr: 0.00008174 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  201: loss: 0.0087 (0.0158) | load time: 0.0275 | back time: 0.5580 | lr: 0.00008163 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  251: loss: 0.0086 (0.0157) | load time: 0.0266 | back time: 0.5567 | lr: 0.00008153 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  301: loss: 0.0082 (0.0157) | load time: 0.0265 | back time: 0.5489 | lr: 0.00008142 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  351: loss: 0.0083 (0.0157) | load time: 0.0297 | back time: 0.5605 | lr: 0.00008132 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  401: loss: 0.0082 (0.0157) | load time: 0.0285 | back time: 0.5669 | lr: 0.00008121 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  451: loss: 0.0081 (0.0157) | load time: 0.0293 | back time: 0.5687 | lr: 0.00008110 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  501: loss: 0.0078 (0.0157) | load time: 0.0286 | back time: 0.5667 | lr: 0.00008100 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  551: loss: 0.0085 (0.0156) | load time: 0.0273 | back time: 0.5593 | lr: 0.00008089 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  601: loss: 0.0086 (0.0156) | load time: 0.0300 | back time: 0.5694 | lr: 0.00008079 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  651: loss: 0.0083 (0.0156) | load time: 0.0256 | back time: 0.5590 | lr: 0.00008068 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  701: loss: 0.0083 (0.0156) | load time: 0.0290 | back time: 0.5535 | lr: 0.00008057 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  751: loss: 0.0082 (0.0156) | load time: 0.0287 | back time: 0.5525 | lr: 0.00008046 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  801: loss: 0.0081 (0.0156) | load time: 0.0306 | back time: 0.5627 | lr: 0.00008036 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  851: loss: 0.0089 (0.0155) | load time: 0.0296 | back time: 0.5622 | lr: 0.00008025 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  901: loss: 0.0081 (0.0155) | load time: 0.0321 | back time: 0.5735 | lr: 0.00008014 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter  951: loss: 0.0080 (0.0155) | load time: 0.0293 | back time: 0.5577 | lr: 0.00008003 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter 1001: loss: 0.0083 (0.0155) | load time: 0.0286 | back time: 0.5634 | lr: 0.00007992 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter 1051: loss: 0.0082 (0.0155) | load time: 0.0278 | back time: 0.5647 | lr: 0.00007982 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter 1101: loss: 0.0087 (0.0155) | load time: 0.0268 | back time: 0.5645 | lr: 0.00007971 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 20, iter 1151: loss: 0.0078 (0.0155) | load time: 0.0232 | back time: 0.5537 | lr: 0.00007960 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+UAV_SEQS_2 | mAP50:90: 35.9060 | AP50: 76.8486 | AP70: 30.4301 
+UAV_SEQS_37 | mAP50:90: 91.6921 | AP50: 100.0000 | AP70: 96.7129 
+UAV_SEQS_45 | mAP50:90: 87.4932 | AP50: 100.0000 | AP70: 95.2582 
+UAV_SEQS_47 | mAP50:90: 89.3439 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_55 | mAP50:90: 28.3235 | AP50: 49.8942 | AP70: 28.1345 
+UAV_SEQS_59 | mAP50:90: 60.5751 | AP50: 95.7682 | AP70: 64.4821 
+UAV_SEQS_6 | mAP50:90: 58.0261 | AP50: 86.0567 | AP70: 62.3888 
+UAV_SEQS_63 | mAP50:90: 26.6909 | AP50: 77.6174 | AP70: 10.0172 
+UAV_SEQS_65 | mAP50:90: 78.4222 | AP50: 94.7401 | AP70: 90.0479 
+UAV_SEQS_7 | mAP50:90: 85.6818 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_71 | mAP50:90: 64.8830 | AP50: 91.5236 | AP70: 77.9092 
+UAV_SEQS_73 | mAP50:90: 66.5183 | AP50: 85.2874 | AP70: 77.1934 
+UAV_SEQS_74 | mAP50:90: 97.4469 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 34.0400 | AP50: 45.7161 | AP70: 41.1091 
+UAV_SEQS_8 | mAP50:90: 87.4750 | AP50: 100.0000 | AP70: 100.0000 
+Overall            | mAP50:95: 68.7599 | AP50: 88.4924 | AP70: 74.9640 
+epoch 21, iter    1: loss: 0.0086 (0.0155) | load time: 3.6663 | back time: 0.8726 | lr: 0.00007959 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter   51: loss: 0.0084 (0.0154) | load time: 0.0254 | back time: 0.5384 | lr: 0.00007948 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  101: loss: 0.0084 (0.0154) | load time: 0.0284 | back time: 0.5649 | lr: 0.00007937 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  151: loss: 0.0083 (0.0154) | load time: 0.0310 | back time: 0.5843 | lr: 0.00007926 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  201: loss: 0.0082 (0.0154) | load time: 0.0278 | back time: 0.5691 | lr: 0.00007915 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  251: loss: 0.0084 (0.0154) | load time: 0.0275 | back time: 0.5604 | lr: 0.00007904 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  301: loss: 0.0085 (0.0154) | load time: 0.0307 | back time: 0.5643 | lr: 0.00007893 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  351: loss: 0.0088 (0.0154) | load time: 0.0266 | back time: 0.5403 | lr: 0.00007882 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  401: loss: 0.0082 (0.0153) | load time: 0.0261 | back time: 0.5438 | lr: 0.00007871 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  451: loss: 0.0078 (0.0153) | load time: 0.0253 | back time: 0.5488 | lr: 0.00007860 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  501: loss: 0.0081 (0.0153) | load time: 0.0308 | back time: 0.5640 | lr: 0.00007849 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  551: loss: 0.0081 (0.0153) | load time: 0.0307 | back time: 0.5640 | lr: 0.00007838 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  601: loss: 0.0086 (0.0153) | load time: 0.0278 | back time: 0.5545 | lr: 0.00007827 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  651: loss: 0.0079 (0.0153) | load time: 0.0264 | back time: 0.5525 | lr: 0.00007816 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  701: loss: 0.0084 (0.0153) | load time: 0.0291 | back time: 0.5631 | lr: 0.00007804 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  751: loss: 0.0076 (0.0152) | load time: 0.0258 | back time: 0.5691 | lr: 0.00007793 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  801: loss: 0.0084 (0.0152) | load time: 0.0308 | back time: 0.5617 | lr: 0.00007782 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  851: loss: 0.0085 (0.0152) | load time: 0.0289 | back time: 0.5603 | lr: 0.00007771 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  901: loss: 0.0082 (0.0152) | load time: 0.0284 | back time: 0.5608 | lr: 0.00007759 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter  951: loss: 0.0081 (0.0152) | load time: 0.0266 | back time: 0.5715 | lr: 0.00007748 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter 1001: loss: 0.0086 (0.0152) | load time: 0.0259 | back time: 0.5744 | lr: 0.00007737 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter 1051: loss: 0.0082 (0.0152) | load time: 0.0287 | back time: 0.5766 | lr: 0.00007725 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter 1101: loss: 0.0088 (0.0151) | load time: 0.0299 | back time: 0.5635 | lr: 0.00007714 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 21, iter 1151: loss: 0.0085 (0.0151) | load time: 0.0239 | back time: 0.5378 | lr: 0.00007703 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+UAV_SEQS_2 | mAP50:90: 23.8581 | AP50: 59.7967 | AP70: 14.4005 
+UAV_SEQS_37 | mAP50:90: 87.0427 | AP50: 100.0000 | AP70: 89.7502 
+UAV_SEQS_45 | mAP50:90: 87.6339 | AP50: 100.0000 | AP70: 95.1270 
+UAV_SEQS_47 | mAP50:90: 86.4018 | AP50: 100.0000 | AP70: 98.0097 
+UAV_SEQS_55 | mAP50:90: 39.0700 | AP50: 60.7072 | AP70: 39.4003 
+UAV_SEQS_59 | mAP50:90: 57.5241 | AP50: 85.6442 | AP70: 62.5074 
+UAV_SEQS_6 | mAP50:90: 59.8075 | AP50: 85.6160 | AP70: 61.8882 
+UAV_SEQS_63 | mAP50:90: 7.3962 | AP50: 30.5196 | AP70: 0.0975 
+UAV_SEQS_65 | mAP50:90: 78.7848 | AP50: 96.4594 | AP70: 84.0912 
+UAV_SEQS_7 | mAP50:90: 90.5161 | AP50: 100.0000 | AP70: 98.9571 
+UAV_SEQS_71 | mAP50:90: 51.6699 | AP50: 83.6551 | AP70: 57.2739 
+UAV_SEQS_73 | mAP50:90: 68.9646 | AP50: 88.9001 | AP70: 78.4890 
+UAV_SEQS_74 | mAP50:90: 97.2168 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 26.6089 | AP50: 35.0317 | AP70: 32.4947 
+UAV_SEQS_8 | mAP50:90: 75.0649 | AP50: 100.0000 | AP70: 96.9747 
+Overall            | mAP50:95: 63.6608 | AP50: 83.4069 | AP70: 68.5571 
+epoch 22, iter    1: loss: 0.0085 (0.0151) | load time: 3.7035 | back time: 0.8730 | lr: 0.00007702 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter   51: loss: 0.0087 (0.0151) | load time: 0.0270 | back time: 0.5281 | lr: 0.00007691 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  101: loss: 0.0080 (0.0151) | load time: 0.0258 | back time: 0.5731 | lr: 0.00007679 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  151: loss: 0.0088 (0.0151) | load time: 0.0250 | back time: 0.5524 | lr: 0.00007668 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  201: loss: 0.0082 (0.0151) | load time: 0.0295 | back time: 0.5679 | lr: 0.00007656 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  251: loss: 0.0080 (0.0151) | load time: 0.0305 | back time: 0.5607 | lr: 0.00007645 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  301: loss: 0.0089 (0.0150) | load time: 0.0277 | back time: 0.5640 | lr: 0.00007633 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  351: loss: 0.0080 (0.0150) | load time: 0.0274 | back time: 0.5550 | lr: 0.00007622 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  401: loss: 0.0082 (0.0150) | load time: 0.0278 | back time: 0.5614 | lr: 0.00007610 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  451: loss: 0.0079 (0.0150) | load time: 0.0294 | back time: 0.5830 | lr: 0.00007599 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  501: loss: 0.0082 (0.0150) | load time: 0.0271 | back time: 0.5629 | lr: 0.00007587 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  551: loss: 0.0076 (0.0150) | load time: 0.0294 | back time: 0.5624 | lr: 0.00007576 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  601: loss: 0.0085 (0.0150) | load time: 0.0282 | back time: 0.5568 | lr: 0.00007564 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  651: loss: 0.0081 (0.0149) | load time: 0.0269 | back time: 0.5577 | lr: 0.00007552 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  701: loss: 0.0081 (0.0149) | load time: 0.0263 | back time: 0.5526 | lr: 0.00007541 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  751: loss: 0.0084 (0.0149) | load time: 0.0279 | back time: 0.5707 | lr: 0.00007529 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  801: loss: 0.0081 (0.0149) | load time: 0.0270 | back time: 0.5512 | lr: 0.00007517 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  851: loss: 0.0082 (0.0149) | load time: 0.0301 | back time: 0.5765 | lr: 0.00007506 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  901: loss: 0.0081 (0.0149) | load time: 0.0270 | back time: 0.5710 | lr: 0.00007494 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter  951: loss: 0.0082 (0.0149) | load time: 0.0285 | back time: 0.5544 | lr: 0.00007482 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter 1001: loss: 0.0083 (0.0149) | load time: 0.0286 | back time: 0.5597 | lr: 0.00007470 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter 1051: loss: 0.0083 (0.0148) | load time: 0.0270 | back time: 0.5507 | lr: 0.00007459 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter 1101: loss: 0.0084 (0.0148) | load time: 0.0324 | back time: 0.5597 | lr: 0.00007447 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 22, iter 1151: loss: 0.0082 (0.0148) | load time: 0.0221 | back time: 0.5394 | lr: 0.00007435 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+UAV_SEQS_2 | mAP50:90: 37.6710 | AP50: 76.9576 | AP70: 37.7140 
+UAV_SEQS_37 | mAP50:90: 86.4603 | AP50: 98.7954 | AP70: 90.4455 
+UAV_SEQS_45 | mAP50:90: 87.5970 | AP50: 100.0000 | AP70: 97.1791 
+UAV_SEQS_47 | mAP50:90: 86.3570 | AP50: 100.0000 | AP70: 95.9329 
+UAV_SEQS_55 | mAP50:90: 35.9630 | AP50: 56.6026 | AP70: 37.3455 
+UAV_SEQS_59 | mAP50:90: 70.4559 | AP50: 95.3324 | AP70: 79.3022 
+UAV_SEQS_6 | mAP50:90: 44.3625 | AP50: 69.9299 | AP70: 45.6226 
+UAV_SEQS_63 | mAP50:90: 23.0992 | AP50: 65.8526 | AP70: 7.1735 
+UAV_SEQS_65 | mAP50:90: 70.4809 | AP50: 94.8163 | AP70: 80.8818 
+UAV_SEQS_7 | mAP50:90: 86.6808 | AP50: 100.0000 | AP70: 98.8878 
+UAV_SEQS_71 | mAP50:90: 66.0812 | AP50: 95.0680 | AP70: 69.5928 
+UAV_SEQS_73 | mAP50:90: 68.2059 | AP50: 85.9091 | AP70: 78.2341 
+UAV_SEQS_74 | mAP50:90: 97.9781 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 45.5301 | AP50: 60.2132 | AP70: 55.3543 
+UAV_SEQS_8 | mAP50:90: 87.3404 | AP50: 100.0000 | AP70: 96.2137 
+Overall            | mAP50:95: 67.9152 | AP50: 88.1535 | AP70: 73.0999 
+epoch 23, iter    1: loss: 0.0082 (0.0148) | load time: 3.7384 | back time: 0.8571 | lr: 0.00007434 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter   51: loss: 0.0082 (0.0148) | load time: 0.0284 | back time: 0.5349 | lr: 0.00007423 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  101: loss: 0.0082 (0.0148) | load time: 0.0266 | back time: 0.5750 | lr: 0.00007411 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  151: loss: 0.0087 (0.0148) | load time: 0.0421 | back time: 0.5765 | lr: 0.00007399 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  201: loss: 0.0081 (0.0148) | load time: 0.0259 | back time: 0.5561 | lr: 0.00007387 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  251: loss: 0.0093 (0.0148) | load time: 0.0250 | back time: 0.5497 | lr: 0.00007375 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  301: loss: 0.0083 (0.0147) | load time: 0.0273 | back time: 0.5466 | lr: 0.00007363 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  351: loss: 0.0085 (0.0147) | load time: 0.0272 | back time: 0.5699 | lr: 0.00007351 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  401: loss: 0.0082 (0.0147) | load time: 0.0268 | back time: 0.5477 | lr: 0.00007339 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  451: loss: 0.0081 (0.0147) | load time: 0.0293 | back time: 0.5571 | lr: 0.00007327 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  501: loss: 0.0082 (0.0147) | load time: 0.0276 | back time: 0.5600 | lr: 0.00007315 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  551: loss: 0.0087 (0.0147) | load time: 0.0272 | back time: 0.5747 | lr: 0.00007303 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  601: loss: 0.0080 (0.0147) | load time: 0.0255 | back time: 0.5478 | lr: 0.00007291 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  651: loss: 0.0082 (0.0147) | load time: 0.0260 | back time: 0.5754 | lr: 0.00007279 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  701: loss: 0.0082 (0.0146) | load time: 0.0282 | back time: 0.5609 | lr: 0.00007267 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  751: loss: 0.0084 (0.0146) | load time: 0.0274 | back time: 0.5710 | lr: 0.00007255 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  801: loss: 0.0081 (0.0146) | load time: 0.0273 | back time: 0.5577 | lr: 0.00007243 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  851: loss: 0.0082 (0.0146) | load time: 0.0290 | back time: 0.5729 | lr: 0.00007231 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  901: loss: 0.0081 (0.0146) | load time: 0.0274 | back time: 0.5631 | lr: 0.00007219 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter  951: loss: 0.0084 (0.0146) | load time: 0.0256 | back time: 0.5518 | lr: 0.00007207 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter 1001: loss: 0.0084 (0.0146) | load time: 0.0258 | back time: 0.5511 | lr: 0.00007194 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter 1051: loss: 0.0086 (0.0146) | load time: 0.0291 | back time: 0.5661 | lr: 0.00007182 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter 1101: loss: 0.0085 (0.0145) | load time: 0.0280 | back time: 0.5591 | lr: 0.00007170 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 23, iter 1151: loss: 0.0086 (0.0145) | load time: 0.0223 | back time: 0.5304 | lr: 0.00007158 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+UAV_SEQS_2 | mAP50:90: 27.4076 | AP50: 60.3429 | AP70: 21.7118 
+UAV_SEQS_37 | mAP50:90: 76.7429 | AP50: 98.3187 | AP70: 80.8831 
+UAV_SEQS_45 | mAP50:90: 89.0327 | AP50: 100.0000 | AP70: 95.0744 
+UAV_SEQS_47 | mAP50:90: 94.1869 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_55 | mAP50:90: 41.3190 | AP50: 64.3539 | AP70: 43.1268 
+UAV_SEQS_59 | mAP50:90: 68.0288 | AP50: 92.3546 | AP70: 74.2177 
+UAV_SEQS_6 | mAP50:90: 57.7368 | AP50: 76.2500 | AP70: 59.2746 
+UAV_SEQS_63 | mAP50:90: 11.0175 | AP50: 40.0010 | AP70: 1.1113 
+UAV_SEQS_65 | mAP50:90: 79.8078 | AP50: 95.9431 | AP70: 88.8936 
+UAV_SEQS_7 | mAP50:90: 79.6764 | AP50: 100.0000 | AP70: 97.6845 
+UAV_SEQS_71 | mAP50:90: 58.7548 | AP50: 93.4691 | AP70: 69.3503 
+UAV_SEQS_73 | mAP50:90: 66.7246 | AP50: 83.3373 | AP70: 78.6874 
+UAV_SEQS_74 | mAP50:90: 98.7156 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 28.0063 | AP50: 41.5360 | AP70: 32.8213 
+UAV_SEQS_8 | mAP50:90: 59.4221 | AP50: 100.0000 | AP70: 66.2376 
+Overall            | mAP50:95: 64.6149 | AP50: 85.1693 | AP70: 69.0068 
+epoch 24, iter    1: loss: 0.0081 (0.0145) | load time: 3.6793 | back time: 0.9309 | lr: 0.00007157 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter   51: loss: 0.0085 (0.0145) | load time: 0.0271 | back time: 0.5481 | lr: 0.00007145 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  101: loss: 0.0082 (0.0145) | load time: 0.0266 | back time: 0.5531 | lr: 0.00007133 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  151: loss: 0.0083 (0.0145) | load time: 0.0263 | back time: 0.5506 | lr: 0.00007121 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  201: loss: 0.0083 (0.0145) | load time: 0.0256 | back time: 0.5662 | lr: 0.00007108 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  251: loss: 0.0084 (0.0145) | load time: 0.0276 | back time: 0.5762 | lr: 0.00007096 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  301: loss: 0.0084 (0.0145) | load time: 0.0285 | back time: 0.5650 | lr: 0.00007084 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  351: loss: 0.0085 (0.0145) | load time: 0.0266 | back time: 0.5534 | lr: 0.00007071 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  401: loss: 0.0083 (0.0144) | load time: 0.0270 | back time: 0.5552 | lr: 0.00007059 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  451: loss: 0.0082 (0.0144) | load time: 0.0327 | back time: 0.5576 | lr: 0.00007047 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  501: loss: 0.0078 (0.0144) | load time: 0.0262 | back time: 0.5541 | lr: 0.00007034 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  551: loss: 0.0085 (0.0144) | load time: 0.0286 | back time: 0.5454 | lr: 0.00007022 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  601: loss: 0.0082 (0.0144) | load time: 0.0313 | back time: 0.5539 | lr: 0.00007010 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  651: loss: 0.0082 (0.0144) | load time: 0.0286 | back time: 0.5648 | lr: 0.00006997 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  701: loss: 0.0083 (0.0144) | load time: 0.0311 | back time: 0.5508 | lr: 0.00006985 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  751: loss: 0.0085 (0.0144) | load time: 0.0286 | back time: 0.5647 | lr: 0.00006972 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  801: loss: 0.0084 (0.0143) | load time: 0.0280 | back time: 0.5657 | lr: 0.00006960 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  851: loss: 0.0083 (0.0143) | load time: 0.0264 | back time: 0.5589 | lr: 0.00006948 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  901: loss: 0.0083 (0.0143) | load time: 0.0300 | back time: 0.5549 | lr: 0.00006935 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter  951: loss: 0.0084 (0.0143) | load time: 0.0261 | back time: 0.5722 | lr: 0.00006923 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter 1001: loss: 0.0080 (0.0143) | load time: 0.0265 | back time: 0.5578 | lr: 0.00006910 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter 1051: loss: 0.0082 (0.0143) | load time: 0.0268 | back time: 0.5593 | lr: 0.00006898 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter 1101: loss: 0.0076 (0.0143) | load time: 0.0302 | back time: 0.5629 | lr: 0.00006885 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+epoch 24, iter 1151: loss: 0.0083 (0.0143) | load time: 0.0261 | back time: 0.5200 | lr: 0.00006872 | best AP50 acc: 0.8859 | best AP70 acc: 0.7364 | best mAP acc: 0.7084 | best Score: 0.7850 | best Score epoch: 14 
+UAV_SEQS_2 | mAP50:90: 25.0044 | AP50: 60.8152 | AP70: 16.3429 
+UAV_SEQS_37 | mAP50:90: 80.9873 | AP50: 98.4752 | AP70: 86.6725 
+UAV_SEQS_45 | mAP50:90: 90.8064 | AP50: 100.0000 | AP70: 95.5235 
+UAV_SEQS_47 | mAP50:90: 87.4085 | AP50: 100.0000 | AP70: 99.0099 
+UAV_SEQS_55 | mAP50:90: 34.5568 | AP50: 55.1975 | AP70: 35.1672 
+UAV_SEQS_59 | mAP50:90: 61.3625 | AP50: 93.6221 | AP70: 67.8723 
+UAV_SEQS_6 | mAP50:90: 45.7939 | AP50: 68.8828 | AP70: 47.2246 
+UAV_SEQS_63 | mAP50:90: 16.1107 | AP50: 39.5695 | AP70: 10.5581 
+UAV_SEQS_65 | mAP50:90: 83.2769 | AP50: 95.7168 | AP70: 91.4258 
+UAV_SEQS_7 | mAP50:90: 69.2253 | AP50: 97.6517 | AP70: 73.7101 
+UAV_SEQS_71 | mAP50:90: 52.9920 | AP50: 83.3870 | AP70: 60.0176 
+UAV_SEQS_73 | mAP50:90: 63.8541 | AP50: 82.3266 | AP70: 70.8801 
+UAV_SEQS_74 | mAP50:90: 98.4569 | AP50: 100.0000 | AP70: 100.0000 
+UAV_SEQS_77 | mAP50:90: 29.7113 | AP50: 42.8654 | AP70: 33.1290 
+UAV_SEQS_8 | mAP50:90: 83.9952 | AP50: 100.0000 | AP70: 98.7620 
+Overall            | mAP50:95: 64.2466 | AP50: 83.7629 | AP70: 68.9493 

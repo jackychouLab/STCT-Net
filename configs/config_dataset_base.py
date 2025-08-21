@@ -1,0 +1,176 @@
+from configs.UAV_60_radar import radar_config
+
+dataset_cfg = dict(
+    dataset_name='mmUAV',
+    base_root="/home/jackychou/dataset/UAV1.0",
+    data_root="/home/jackychou/dataset/UAV1.0/uav_seqs_{}",
+    anno_root="/home/jackychou/dataset/UAV1.0/uav_seqs_{}/annot",
+    anno_ext='.csv',
+    train=dict(
+        subdir='train',
+        seqs=[1, 3, 4, 5, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32,
+              33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 44, 46, 48, 49, 50, 51, 52, 53, 54, 56, 57, 58, 60, 61, 62, 64,
+              66, 67, 68, 69, 70, 72, 75, 76, 78, 79],
+    ),
+    valid=dict(
+        subdir='valid',
+        seqs=[2, 6, 7, 8, 37, 45, 47, 55, 59, 63, 65, 71, 73, 74, 77],
+    ),
+    test=dict(
+        subdir='test',
+        seqs=[2, 6, 7, 8, 37, 45, 47, 55, 59, 63, 65, 71, 73, 74, 77],
+    ),
+    demo=dict(
+        subdir='demo',
+        seqs=[],
+    ),
+    data_mean_std=dict(
+
+        RA11_real_mean=1.0969024455917427e-10,
+        RA11_real_std=999.0760014531162,
+        RA11_imag_mean=-2.3317304165924297e-10,
+        RA11_imag_std=999.050739205195,
+        RA11_mod_mean=1043.2183591023115,
+        RA11_mod_std=952.8644653433711,
+        RA11_pha_mean=1.5708011837000502,
+        RA11_pha_std=1.5707963476961713,
+        RD11_real_mean=-0.45920154981373346,
+        RD11_real_std=2135.261994600648,
+        RD11_imag_mean=-0.5187997145217378,
+        RD11_imag_std=2133.763343354344,
+        AD11_real_mean=-0.5542052909405902,
+        AD11_real_std=652.6616855393398,
+        AD11_imag_mean=3.8305096493599318,
+        AD11_imag_std=652.5740280548645,
+        RD11_real_mean_128=-0.45920155045731614,
+        RD11_real_std_128=1493.1441307550765,
+        RD11_imag_mean_128=-0.5187997175514465,
+        RD11_imag_std_128=1491.2840598714126,
+        AD11_real_mean_128=-0.5542052897779892,
+        AD11_real_std_128=459.161229858367,
+        AD11_imag_mean_128=3.8305096565031755,
+        AD11_imag_std_128=459.18515923325003,
+
+
+        RA114_real_mean=7.0691991519803805e-09,
+        RA114_real_std=2581.2521669463513,
+        RA114_imag_mean=7.226093051334222e-09,
+        RA114_imag_std=2581.1090269123843,
+        RA114_mod_mean=1729.79842303435,
+        RA114_mod_std=3214.4648145920787,
+        RA114_pha_mean=1.5707876967235157,
+        RA114_pha_std=1.570796362288946,
+
+        RA118_real_mean=-1.319813842807586e-08,
+        RA118_real_std=2265.88549698065,
+        RA118_imag_mean=-1.7001487625141937e-11,
+        RA118_imag_std=2265.699989834927,
+        RA118_mod_mean=1645.6762893748282,
+        RA118_mod_std=2749.433222135608,
+        RA118_pha_mean=1.5707988347074326,
+        RA118_pha_std=1.5707963740960225,
+
+        RA1116_real_mean=-4.6880631998647e-09,
+        RA1116_real_std=2011.3393602422573,
+        RA1116_imag_mean=1.1768309680822616e-08,
+        RA1116_imag_std=2011.1853841369393,
+        RA1116_mod_mean=1574.215066442887,
+        RA1116_mod_std=2369.008117250336,
+        RA1116_pha_mean=1.5708004800882192,
+        RA1116_pha_std=1.5707964082160868,
+
+        RA1132_real_mean=-4.596580159462367e-09,
+        RA1132_real_std=1777.1304055444118,
+        RA1132_imag_mean=4.062600661806452e-09,
+        RA1132_imag_std=1777.0248265579144,
+        RA1132_mod_mean=1492.1292447366318,
+        RA1132_mod_std=2022.2660572796233,
+        RA1132_pha_mean=1.5708082493642965,
+        RA1132_pha_std=1.5707963542744425,
+
+        RA1164_real_mean=-4.7461223099768785e-09,
+        RA1164_real_std=1524.668234649061,
+        RA1164_imag_mean=5.012152541894466e-09,
+        RA1164_imag_std=1524.623667951828,
+        RA1164_mod_mean=1380.8863641301791,
+        RA1164_mod_std=1655.9720491996334,
+        RA1164_pha_mean=1.5708017085587684,
+        RA1164_pha_std=1.5707964333793714,
+
+        RA11128_real_mean=-3.5156134951345546e-09,
+        RA11128_real_std=1259.1243523506027,
+        RA11128_imag_mean=7.525151204390567e-09,
+        RA11128_imag_std=1259.0981668363358,
+        RA11128_mod_mean=1225.1974055408934,
+        RA11128_mod_std=1292.1352991771944,
+        RA11128_pha_mean=1.5707974810582042,
+        RA11128_pha_std=1.5707964552693008,
+
+        RA124_real_mean=-7.3181581683456894e-09,
+        RA124_real_std=2097.324043482735,
+        RA124_imag_mean=3.09772682764257e-08,
+        RA124_imag_std=2097.002484354474,
+        RA124_mod_mean=1371.4520960529646,
+        RA124_mod_std=2629.697071772399,
+        RA124_pha_mean=1.5707301097533977,
+        RA124_pha_std=1.570796414222888,
+
+        RA128_real_mean=2.878817516223838e-09,
+        RA128_real_std=1860.868217082461,
+        RA128_imag_mean=6.315664601667474e-09,
+        RA128_imag_std=1860.6751301730112,
+        RA128_mod_mean=1350.9354853630066,
+        RA128_mod_std=2258.299297257395,
+        RA128_pha_mean=1.5707628812493446,
+        RA128_pha_std=1.5707963860676282,
+
+        RA1216_real_mean=4.207674161686251e-09,
+        RA1216_real_std=1676.8760591095415,
+        RA1216_imag_mean=1.964817784028128e-08,
+        RA1216_imag_std=1676.823451212456,
+        RA1216_mod_mean=1318.708589971463,
+        RA1216_mod_std=1970.953540425891,
+        RA1216_pha_mean=1.5707751578643607,
+        RA1216_pha_std=1.5707963802589537,
+
+        RA1232_real_mean=9.297033708814221e-09,
+        RA1232_real_std=1519.9670038531854,
+        RA1232_imag_mean=1.7926971243772035e-08,
+        RA1232_imag_std=1519.909162047909,
+        RA1232_mod_mean=1276.2902661556998,
+        RA1232_mod_std=1729.5972627279193,
+        RA1232_pha_mean=1.5707883097836748,
+        RA1232_pha_std=1.5707964147886118,
+
+        RA1264_real_mean=8.476838502247119e-09,
+        RA1264_real_std=1366.6032735101212,
+        RA1264_imag_mean=8.523643373337108e-09,
+        RA1264_imag_std=1366.5966188842372,
+        RA1264_mod_mean=1222.4041981362302,
+        RA1264_mod_std=1496.969863263567,
+        RA1264_pha_mean=1.5707870342565002,
+        RA1264_pha_std=1.570796400286751,
+    ),
+    rangeDownSample=1,
+)
+
+confmap_cfg = dict(
+    confmap_sigmas={
+        'uav': 10, # Z. Jiang:10     J. Zhou:5
+    },
+    confmap_sigmas_interval={
+        'uav': [5, 10], # Z. Jiang:[5, 10]   J. Zhou:[3, 5]
+    },
+    confmap_length={
+        'uav': 1,
+    }
+)
+
+test_cfg = dict(
+    test_step=1,
+    test_stride=4,
+    rr_min=radar_config['rr_min'],
+    rr_max=radar_config['rr_max'],
+    ra_min=radar_config['ra_min'],
+    ra_max=radar_config['ra_max'],
+)
