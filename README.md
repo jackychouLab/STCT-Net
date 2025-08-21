@@ -7,7 +7,7 @@ We are very grateful for the source code provided by [`RODNet`](https://github.c
 Please cite our paper if this repository is helpful for your research:
 
 ```
-@article{wang2021rodnet,
+@article{jackychou_stct-net,
   title={Robust Radar-Based UAV Detection in Complex Urban Environments via Spatio-temporal Channel Transfer Networks},
   author={Jianhong Zhou, Feng Ke, Yikui Zhai, Ziyi Jiang, Haolin Lv, Pasquale Coscia, Angelo Genovese, and Xiu Yin Zhang},
   journal={-},
