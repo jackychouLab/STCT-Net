@@ -10,6 +10,8 @@ from torch.optim.lr_scheduler import MultiStepLR, SequentialLR, LinearLR, Cyclic
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 from cruw import CRUW
+
+from configs.config_dataset_base import dataset_cfg
 from rodnet.datasets.CRDataset_UAV import CRDataset
 from rodnet.datasets.collate_functions import cr_collate
 from rodnet.core.radar_processing import chirp_amp
@@ -424,7 +426,7 @@ class Trainer:
             n_frames_all = 0
 
             for seq_name in seq_names:
-                seq_label_temp = f"annot/rodnet_labels_{str(self.radar_configs['ramap_rsize'] // self.dataset_configs['rangeDownSample'])}_rad.csv"
+                seq_label_temp = f"annot/rodnet_labels_{str(self.radar_configs['ramap_rsize'] // self.dataset_configs['rangeDownSample'])}_rad_{dataset_cfg['save_id']}.csv"
                 gt_path = os.path.join(config_dict['dataset_cfg']['base_root'], seq_name, seq_label_temp)
                 res_path = os.path.join(test_res_dir, seq_name, 'rod_res.txt')
                 evalImgs = evaluate_rodnet_seq(res_path, gt_path, n_frame, dataset)
