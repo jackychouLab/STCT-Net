@@ -143,7 +143,7 @@ def prepare_data(dataset, config_dict, data_dir, split, save_dir, viz=False, ove
 
     for seq in sets_seqs:
         seq_path = data_root.format(seq)
-        seq_anno_path = os.path.join(anno_root.format(seq), f"rodnet_labels_{str(range_length // rangeDownSample)}_{label_type}.csv")
+        seq_anno_path = os.path.join(anno_root.format(seq), f"rodnet_labels_{str(range_length // rangeDownSample)}_{label_type}_{save_id}.csv")
         save_path = os.path.join(save_dir, f"uav_seqs_{seq}" + '.pkl')
         print("Sequence %s saving to %s" % (seq_path, save_path))
 
@@ -238,67 +238,68 @@ if __name__ == "__main__":
     # 修改 Start
     chirp_nums = [32]  # 4 8 16
     use_filters = [1132]  # 0 1 2 3 4
-    rangeDownSamples = [4]  # 1 2 4
+    rangeDownSamples = [1]  # 1 2 4
     radar_type = "azimuth"  # azimuth elevation
     data_root_path = "/home/jackychou/dataset/UAV1.0"
     label_type = "rad"
     use_split = True
     range_length = 512
+    save_ids = [1, 2]
     # 修改 End
     pcav1_list = [111, 114, 118, 1116, 1132, 1164]
     pcav2_list = [121, 124, 128, 1216, 1232, 1264]
-
-    for chirp_num in chirp_nums:
-        for use_filter in use_filters:
-            if use_filter in pcav1_list:
-                if use_filter > 1000:
-                    chirp_num = use_filter - 1100
-                elif use_filter > 100:
-                    chirp_num = use_filter - 110
-                sensor_type = "pca"
-            elif use_filter in pcav2_list:
-                if use_filter > 1000:
-                    chirp_num = use_filter - 1200
-                elif use_filter > 100:
-                    chirp_num = use_filter - 120
-                sensor_type = "pca"
-            else:
-                sensor_type = "uniform"
-
-            for rangeDownSample in rangeDownSamples:
-                config_name = f"config_dataset_{str(range_length // rangeDownSample)}.py"
-                file_type = "python"
-                sensor_config_path = f"/home/jackychou/code/RODNet_UAV/cruw-devkit/cruw/dataset_configs/{sensor_type}_{chirp_num}.json"
-                SPLITS_LIST = ['train', 'valid', 'test', 'demo']
-                config_path = f"/home/jackychou/code/RODNet_UAV/configs/{config_name}"
-                split_type = "train,test"
-                out_data_dir_path = os.path.join(data_root_path, f"train_test_{chirp_num}_{use_filter}_{range_length // rangeDownSample}")
-
-                args = parse_args()
-                data_root = args.data_root
-                if args.split == '':
-                    splits = None
+    for save_id in save_ids:
+        for chirp_num in chirp_nums:
+            for use_filter in use_filters:
+                if use_filter in pcav1_list:
+                    if use_filter > 1000:
+                        chirp_num = use_filter - 1100
+                    elif use_filter > 100:
+                        chirp_num = use_filter - 110
+                    sensor_type = "pca"
+                elif use_filter in pcav2_list:
+                    if use_filter > 1000:
+                        chirp_num = use_filter - 1200
+                    elif use_filter > 100:
+                        chirp_num = use_filter - 120
+                    sensor_type = "pca"
                 else:
-                    splits = args.split.split(',')
-                out_data_dir = args.out_data_dir
-                os.makedirs(out_data_dir, exist_ok=True)
-                overwrite = args.overwrite
-                dataset = CRUW(data_root=data_root, sensor_config_name=args.sensor_config)
-                config_dict = load_configs_from_file(args.config)
-                config_dict = update_config_dict(config_dict, args)
-                radar_configs = dataset.sensor_cfg.radar_cfg
+                    sensor_type = "uniform"
 
-                if splits == None:
-                    prepare_data(dataset, config_dict, out_data_dir, split=None, save_dir=out_data_dir, viz=False, overwrite=overwrite)
-                else:
-                    for split in splits:
-                        if split not in SPLITS_LIST:
-                            raise TypeError("split %s cannot be recognized" % split)
+                for rangeDownSample in rangeDownSamples:
+                    config_name = f"config_dataset_{str(range_length // rangeDownSample)}.py"
+                    file_type = "python"
+                    sensor_config_path = f"/home/jackychou/code/RODNet_UAV/cruw-devkit/cruw/dataset_configs/{sensor_type}_{chirp_num}.json"
+                    SPLITS_LIST = ['train', 'valid', 'test', 'demo']
+                    config_path = f"/home/jackychou/code/RODNet_UAV/configs/{config_name}"
+                    split_type = "train,test"
+                    out_data_dir_path = os.path.join(data_root_path, f"train_test_{chirp_num}_{use_filter}_{range_length // rangeDownSample}")
 
-                    for split in splits:
-                        save_dir = os.path.join(out_data_dir, split)
-                        if not os.path.exists(save_dir):
-                            os.makedirs(save_dir)
+                    args = parse_args()
+                    data_root = args.data_root
+                    if args.split == '':
+                        splits = None
+                    else:
+                        splits = args.split.split(',')
+                    out_data_dir = args.out_data_dir
+                    os.makedirs(out_data_dir, exist_ok=True)
+                    overwrite = args.overwrite
+                    dataset = CRUW(data_root=data_root, sensor_config_name=args.sensor_config)
+                    config_dict = load_configs_from_file(args.config)
+                    config_dict = update_config_dict(config_dict, args)
+                    radar_configs = dataset.sensor_cfg.radar_cfg
 
-                        print('Preparing %s sets ...' % split)
-                        prepare_data(dataset, config_dict, out_data_dir, split, save_dir, viz=False, overwrite=overwrite)
+                    if splits == None:
+                        prepare_data(dataset, config_dict, out_data_dir, split=None, save_dir=out_data_dir, viz=False, overwrite=overwrite)
+                    else:
+                        for split in splits:
+                            if split not in SPLITS_LIST:
+                                raise TypeError("split %s cannot be recognized" % split)
+
+                        for split in splits:
+                            save_dir = os.path.join(out_data_dir, split)
+                            if not os.path.exists(save_dir):
+                                os.makedirs(save_dir)
+
+                            print('Preparing %s sets ...' % split)
+                            prepare_data(dataset, config_dict, out_data_dir, split, save_dir, viz=False, overwrite=overwrite)

@@ -86,3 +86,6 @@ python tools/test.py --config configs/<CONFIG_FILE> \
         --checkpoint <CHECKPOINT_PATH> \
         --res_dir results/
 ```
+## Model Weights
+
+The optimal weights of all models on the UAV-Radar dataset are available for download from [`Key:7bi5`](https://pan.baidu.com/s/189Z2IjzJ6k4QNAWArVzK6g).
