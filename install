@@ -1,0 +1,7 @@
+1. check configs/config_dataset_xxx.py
+2. check cruw-devikit/cruw/dataset_configs/uniform_x.json
+3. use tools/prepare_dataset/1_annot_generation to create csv_offset_label_xxx
+4. use tools/prepare_dataset/2_convert_annotations to create annot/xxx
+5. use tools/prepare_dataset/3_PrepareDataForTrain&Val&Test create train_test_xxx
+6. check configs/train_fcg
+7. using_foward_training

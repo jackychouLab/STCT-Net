@@ -1,0 +1,28 @@
+0. 环境搭建
+conda create -n UAVRadar python=3.10
+conda activate UAVRadar
+pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu128 --extra-index-url https://pypi.tuna.tsinghua.edu.cn/simple
+cd UAVRODNet
+pip install -r requirements.txt --extra-index-url https://pypi.tuna.tsinghua.edu.cn/simple
+cd cruw-devkit
+pip install -r requirements.txt --extra-index-url https://pypi.tuna.tsinghua.edu.cn/simple
+pip install pynvml fvcore thop timm einops --extra-index-url https://pypi.tuna.tsinghua.edu.cn/simple
+pip install "numpy<2.0.0" --extra-index-url https://pypi.tuna.tsinghua.edu.cn/simple
+pip install . --extra-index-url https://pypi.tuna.tsinghua.edu.cn/simple
+cd ..
+pip install -e . --extra-index-url https://pypi.tuna.tsinghua.edu.cn/simple --no-build-isolation
+
+1. 数据转换
+python tools/prepare_dataset/3_prepare_data.py --config /home/jackychou/project/python_code/RODNet_UAV/configs/config_rodnet_baseline.py --data_root /home/jackychou/project/datasets/test_UAV_dataset --split train,test --out_data_dir /home/jackychou/project/datasets/test_UAV_dataset/train_test_seqs_rodnet
+
+2. 模型训练
+python tools/train.py --config /home/jackychou/project/python_code/RODNet_UAV/configs/config_rodnet_baseline.py --data_dir /home/jackychou/project/datasets/test_UAV_dataset/train_test_seqs_rodnet --log_dir /home/jackychou/project/python_code/RODNet_UAV/workers/rodnet_baseline
+
+3. 推理
+python tools/test.py --config /home/jackychou/project/python_code/RODNet_UAV/configs/config_rodnet_baseline.py \
+        --data_root /home/jackychou/project/datasets/test_UAV_dataset \
+        --checkpoint /home/jackychou/project/python_code/RODNet_UAV/workers/rodnet_baseline/rodnet-cdcv2-win16-mnet-20241206-170718/epoch_100.pkl \
+        --res_dir /home/jackychou/project/python_code/RODNet_UAV/workers/rodnet_baseline/results_100/
+
+
+

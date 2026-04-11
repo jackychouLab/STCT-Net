@@ -1,0 +1,2 @@
+npy path: /home/jackychou/dataset/UAV1.0/uav_seqs_42/python_slice_frame_11/azimuth/raw_frame_RA/144_000000001.npy
+frame indices: 140:156:1

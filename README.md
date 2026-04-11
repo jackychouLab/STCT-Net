@@ -1,0 +1,91 @@
+# STCT-Net: Robust Detection of Low-RCS UAVs in Urban Clutter with Millimeter-Wave Radar
+
+We are very grateful for the source code provided by [`RODNet`](https://github.com/yizhou-wang/RODNet), which our project extends upon. This is the official implementation of our STCT-Net papers. 
+
+![STCT-Net Overview](./docs/images/1.jpg?raw=true)
+
+Please cite our paper if this repository is helpful for your research:
+
+```
+@article{jackychou_stct-net,
+  title={Towards low-altitude UAV detection in urban radar clutter: a benchmark and spatio-temporal channel transfer network},
+  author={Jianhong Zhou, Feng Ke, Yikui Zhai, XueQiang Zheng, Ziyi Jiang, Haolin Lv, and Xiu Yin Zhang},
+  journal={-},
+  volume={-},
+  number={-},
+  pages={-},
+  year={-},
+  publisher={-}
+}
+```
+
+## Installation
+
+```commandline
+cd $STCT-NET_ROOT
+git clone https://github.com/jackychouLab/STCT-Net.git
+```
+
+Create a conda environment for STCT-Net. Tested under Python 3.10.
+```commandline
+conda create -n stctnet python=3.10 -y
+conda activate stctnet
+```
+
+Install the latest version of  Pytorch for CUDA 12.8.
+```commandline
+pip3 install torch torchvision
+```
+
+Install `cruw-devkit` package. 
+Please refer to [`cruw-devit`](https://github.com/yizhou-wang/cruw-devkit) repository for detailed instructions.
+```commandline
+git clone https://github.com/yizhou-wang/cruw-devkit.git
+cd cruw-devkit
+pip install .
+cd ..
+```
+
+Setup package.
+```commandline
+pip install -e .
+```
+
+Download the new CRUW[`Key:Wati for submit`](Wati for submit) files and use them to replace all files within the compiled CRUW directory.
+```commandline
+{Your Environment Path}/lib/python3.10/site-packages/cruw/*
+{Your Environment Path}/lib/python3.10/site-packages/cruw_devkit-1.1.dist-info/*
+```
+
+## Prepare data for UAVRadar dataset
+
+Download UAVRadar dataset[`Key:Wati for submit`](Wati for submit). 
+
+Prepare data and annotations for training.
+```commandline
+cd STCT-Net/tools/prepare_dataset
+```
+Use `3_PrepareDataForTrain&Val&Test.py` to prepare. You can generate different data by modifying the `chirp_nuims` and `use_filters` parameters.
+
+
+## Train models
+
+```commandline
+python tools/train.py --config configs/<CONFIG_FILE> \
+        --sensor_config cruw-devkit/dataset_configs/<SENSOR_FILE>\
+        --data_dir <DATA_FOLDER_NAME> \
+        --log_dir logs/<MODEL_NAME>
+```
+
+## Inference
+
+```commandline
+python tools/test.py --config configs/<CONFIG_FILE> \
+        --sensor_config cruw-devkit/dataset_configs/<SENSOR_FILE>\
+        --data_dir data/<DATA_FOLDER_NAME> \
+        --checkpoint <CHECKPOINT_PATH> \
+        --res_dir results/
+```
+## Model Weights
+
+The optimal weights of all models on the UAVRadar dataset are available for download from [`Key:Wati for submit`](Wati for submit).
