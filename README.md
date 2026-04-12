@@ -51,7 +51,7 @@ Setup package.
 pip install -e .
 ```
 
-Download the new CRUW[`Key:Wati for submit`](Wati for submit) files and use them to replace all files within the compiled CRUW directory.
+Download the new CRUW[`Key:kw6y`](https://pan.baidu.com/s/1PyWDNYhvHSX1OuuSoQGGYA) files and use them to replace all files within the compiled CRUW directory.
 ```commandline
 {Your Environment Path}/lib/python3.10/site-packages/cruw/*
 {Your Environment Path}/lib/python3.10/site-packages/cruw_devkit-1.1.dist-info/*
@@ -59,7 +59,7 @@ Download the new CRUW[`Key:Wati for submit`](Wati for submit) files and use them
 
 ## Prepare data for UAVRadar dataset
 
-Download UAVRadar dataset[`Key:Wati for submit`](Wati for submit). 
+Download UAVRadar dataset[`Key:7b6t`](https://pan.baidu.com/s/1ucBnr8on_OtG2Mm3igO5rw). 
 
 Prepare data and annotations for training.
 ```commandline
@@ -88,4 +88,4 @@ python tools/test.py --config configs/<CONFIG_FILE> \
 ```
 ## Model Weights
 
-The optimal weights of all models on the UAVRadar dataset are available for download from [`Key:Wati for submit`](Wati for submit).
+The optimal weights of STCT-Net on the UAVRadar dataset are available for download from [`Key:qqub`](https://pan.baidu.com/s/1Iudad8HDbt8WhN9Ci4lmQg).
