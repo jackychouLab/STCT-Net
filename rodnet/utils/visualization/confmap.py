@@ -20,7 +20,7 @@ def visualize_confmap(confmap, pps=[]):
             plt.imshow(confmap_noise, origin='lower', aspect='auto')
             plt.show()
     else:
-        assert False
+        print("Warning: wrong shape of confmap!")
         return
     plt.imshow(confmap_viz, origin='lower', aspect='auto')
     for pp in pps:

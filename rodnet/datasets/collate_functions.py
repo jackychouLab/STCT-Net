@@ -23,15 +23,12 @@ def cr_collate(batch):
         return None
     elif isinstance(elem, torch.Tensor):
         out = None
-        # if torch.utils.data.get_worker_info() is not None:
-        #     # If we're in a background process, concatenate directly into a
-        #     # shared memory tensor to avoid an extra copy
-        #     numel = sum([x.numel() for x in batch])
-        #     # storage = elem.storage()._new_shared(numel)
-        #     # out = elem.new(storage)
-        #     storage = elem.untyped_storage()._new_shared(numel)
-        #     storage_temp = storage.clone().resize_(0)
-        #     out = elem.new(storage_temp)
+        if torch.utils.data.get_worker_info() is not None:
+            # If we're in a background process, concatenate directly into a
+            # shared memory tensor to avoid an extra copy
+            numel = sum([x.numel() for x in batch])
+            storage = elem.storage()._new_shared(numel)
+            out = elem.new(storage)
         return torch.stack(batch, 0, out=out)
     elif elem_type.__module__ == 'numpy' and elem_type.__name__ != 'str_' \
             and elem_type.__name__ != 'string_':
@@ -45,7 +42,7 @@ def cr_collate(batch):
         elif elem.shape == ():  # scalars
             return torch.as_tensor(batch)
     elif isinstance(elem, float):
-        return torch.tensor(batch, dtype=torch.float32)
+        return torch.tensor(batch, dtype=torch.float64)
     elif isinstance(elem, bool):
         return all(batch)
     elif isinstance(elem, int_classes):

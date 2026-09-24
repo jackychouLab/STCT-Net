@@ -3,7 +3,7 @@ import torch.nn as nn
 
 class RadarStackedHourglass(nn.Module):
 
-    def __init__(self, in_channels, n_class, stacked_num=1, conv_op=None, use_mse_loss=True):
+    def __init__(self, in_channels, n_class, stacked_num=1, conv_op=None, use_mse_loss=False):
         super(RadarStackedHourglass, self).__init__()
         self.stacked_num = stacked_num
         if conv_op is None:

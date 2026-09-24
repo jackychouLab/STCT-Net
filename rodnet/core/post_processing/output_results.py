@@ -1,6 +1,7 @@
 from rodnet.core.object_class import get_class_name
 
 
+
 def write_dets_results(res, data_id, save_path, dataset):
     batch_size, win_size, max_dets, _ = res.shape
     classes = dataset.object_cfg.classes

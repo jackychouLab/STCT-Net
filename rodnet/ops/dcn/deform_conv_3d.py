@@ -6,8 +6,7 @@ import torch.nn.functional as F
 from torch.autograd import Function
 from torch.autograd.function import once_differentiable
 from torch.nn.modules.utils import _triple, _pair, _single
-
-from . import deform_conv_3d_cuda
+import tdc_deform_conv_cuda as deform_conv_3d_cuda
 
 
 class DeformConvFunction3D(Function):
@@ -49,6 +48,7 @@ class DeformConvFunction3D(Function):
             assert (input.shape[0] %
                     cur_im2col_step) == 0, 'im2col step must divide batchsize'
             deform_conv_3d_cuda.deform_conv_forward_cuda(
+            # deform_conv_forward_cuda(
                 input, weight, offset, output, ctx.bufs_[0], ctx.bufs_[1],
                 weight.size(4), weight.size(3), weight.size(2),
                 ctx.stride[2], ctx.stride[1], ctx.stride[0],
@@ -77,6 +77,7 @@ class DeformConvFunction3D(Function):
                 grad_input = torch.zeros_like(input)
                 grad_offset = torch.zeros_like(offset)
                 deform_conv_3d_cuda.deform_conv_backward_input_cuda(
+                # deform_conv_backward_input_cuda(
                     input, offset, grad_output, grad_input,
                     grad_offset, weight, ctx.bufs_[0],
                     weight.size(4), weight.size(3), weight.size(2),
@@ -89,6 +90,7 @@ class DeformConvFunction3D(Function):
             if ctx.needs_input_grad[2]:
                 grad_weight = torch.zeros_like(weight)
                 deform_conv_3d_cuda.deform_conv_backward_parameters_cuda(
+                # deform_conv_backward_parameters_cuda(
                     input, offset, grad_output,
                     grad_weight, ctx.bufs_[0], ctx.bufs_[1],
                     weight.size(4), weight.size(3), weight.size(2),
@@ -149,6 +151,7 @@ class ModulatedDeformConvFunction3D(Function):
             ModulatedDeformConvFunction3D._infer_shape(ctx, input, weight))
         ctx._bufs = [input.new_empty(0), input.new_empty(0)]
         deform_conv_3d_cuda.modulated_deform_conv_cuda_forward(
+        # modulated_deform_conv_cuda_forward(
             input, weight, bias, ctx._bufs[0], offset, mask, output,
             ctx._bufs[1], weight.shape[2], weight.shape[3], ctx.stride,
             ctx.stride, ctx.padding, ctx.padding, ctx.dilation, ctx.dilation,
@@ -167,6 +170,7 @@ class ModulatedDeformConvFunction3D(Function):
         grad_weight = torch.zeros_like(weight)
         grad_bias = torch.zeros_like(bias)
         deform_conv_3d_cuda.modulated_deform_conv_cuda_backward(
+        # modulated_deform_conv_cuda_backward(
             input, weight, bias, ctx._bufs[0], offset, mask, ctx._bufs[1],
             grad_input, grad_weight, grad_bias, grad_offset, grad_mask,
             grad_output, weight.shape[2], weight.shape[3], ctx.stride,
@@ -438,12 +442,6 @@ class ModulatedDeformConvPack3D(ModulatedDeformConv3D):
                 state_dict[prefix +
                            'conv_offset.bias'] = state_dict.pop(prefix[:-1] +
                                                                 '_offset.bias')
-
-        if version is not None and version > 1:
-            print_log(
-                'ModulatedDeformConvPack {} is upgraded to version 2.'.format(
-                    prefix.rstrip('.')),
-                logger='root')
 
         super()._load_from_state_dict(state_dict, prefix, local_metadata,
                                       strict, missing_keys, unexpected_keys,

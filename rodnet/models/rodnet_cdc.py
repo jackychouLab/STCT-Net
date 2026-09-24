@@ -1,4 +1,5 @@
 import torch.nn as nn
+
 from .backbones.cdc import RadarVanilla
 
 
@@ -10,4 +11,3 @@ class RODNetCDC(nn.Module):
     def forward(self, x):
         x = self.cdc(x)
         return x
-

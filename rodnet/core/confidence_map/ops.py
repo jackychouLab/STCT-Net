@@ -12,11 +12,11 @@ def normalize_confmap(confmap):
     return confmap_norm
 
 
-def add_noise_channel(confmap, dataset, config_dict, rangeDownSample=1):
+def add_noise_channel(confmap, dataset, config_dict):
     n_class = dataset.object_cfg.n_class
     radar_configs = dataset.sensor_cfg.radar_cfg
 
-    confmap_new = np.zeros((n_class + 1, radar_configs['ramap_rsize'] // rangeDownSample, radar_configs['ramap_asize']), dtype=float)
+    confmap_new = np.zeros((n_class + 1, radar_configs['ramap_rsize'], radar_configs['ramap_asize']), dtype=float)
     confmap_new[:n_class, :, :] = confmap
     conf_max = np.max(confmap, axis=0)
     confmap_new[n_class, :, :] = 1.0 - conf_max

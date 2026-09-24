@@ -1,6 +1,6 @@
 import numpy as np
 
-from .ops import detect_peaks
+from .ops import detect_peaks, detect_peaks_fast
 from .lnms import lnms
 from rodnet.utils.visualization import visualize_postprocessing
 
@@ -98,7 +98,7 @@ def post_process(confmaps, config_dict):
             for c in range(class_size):
                 obj_dicts_in_class = []
                 confmap = np.squeeze(confmaps[b, c, w, :, :])
-                rowids, colids = detect_peaks(confmap, threshold=peak_thres)
+                rowids, colids = detect_peaks_fast(confmap, threshold=peak_thres)
 
                 for ridx, aidx in zip(rowids, colids):
                     rng = rng_grid[ridx]
@@ -145,7 +145,7 @@ def post_process_single_frame(confmaps, dataset, config_dict):
     for c in range(class_size):
         obj_dicts_in_class = []
         confmap = confmaps[c, :, :]
-        rowids, colids = detect_peaks(confmap, threshold=peak_thres)
+        rowids, colids = detect_peaks_fast(confmap, threshold=peak_thres)
 
         for ridx, aidx in zip(rowids, colids):
             rng = rng_grid[ridx]

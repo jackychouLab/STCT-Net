@@ -4,7 +4,7 @@ import math
 from rodnet.core.object_class import get_class_id
 
 
-def generate_confmap(n_obj, obj_info, dataset, config_dict, gaussian_thres=36, rangeDownSample=1):
+def generate_confmap(n_obj, obj_info, dataset, config_dict, gaussian_thres=36):
     """
     Generate confidence map a radar frame.
     :param n_obj: number of objects in this frame
@@ -24,7 +24,7 @@ def generate_confmap(n_obj, obj_info, dataset, config_dict, gaussian_thres=36, r
     range_grid = dataset.range_grid
     angle_grid = dataset.angle_grid
 
-    confmap = np.zeros((n_class, radar_configs['ramap_rsize'] // rangeDownSample, radar_configs['ramap_asize']), dtype=float)
+    confmap = np.zeros((n_class, radar_configs['ramap_rsize'], radar_configs['ramap_asize']), dtype=float)
     for objid in range(n_obj):
         rng_idx = obj_info['center_ids'][objid][0]
         agl_idx = obj_info['center_ids'][objid][1]
@@ -39,7 +39,7 @@ def generate_confmap(n_obj, obj_info, dataset, config_dict, gaussian_thres=36, r
             sigma = sigma_interval[1]
         if sigma < sigma_interval[0]:
             sigma = sigma_interval[0]
-        for i in range(radar_configs['ramap_rsize'] // rangeDownSample):
+        for i in range(radar_configs['ramap_rsize']):
             for j in range(radar_configs['ramap_asize']):
                 distant = (((rng_idx - i) * 2) ** 2 + (agl_idx - j) ** 2) / sigma ** 2
                 if distant < gaussian_thres:  # threshold for confidence maps

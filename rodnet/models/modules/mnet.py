@@ -1,6 +1,6 @@
 import math
+import torch
 import torch.nn as nn
-
 
 
 class MNet(nn.Module):
@@ -19,11 +19,23 @@ class MNet(nn.Module):
 
     def forward(self, x):
         batch_size, n_channels, win_size, in_chirps, w, h = x.shape
-        x_out = x.new_empty((batch_size, self.out_channels, win_size, w, h))
+        x_out = torch.zeros((batch_size, self.out_channels, win_size, w, h)).cuda()
         for win in range(win_size):
-            x_win = x[:, :, win, :, :, :].contiguous()
-            x_win = self.t_conv3d(x_win)
+            x_win = self.t_conv3d(x[:, :, win, :, :, :])
             x_win = self.t_maxpool(x_win)
             x_win = x_win.view(batch_size, self.out_channels, w, h)
             x_out[:, :, win, ] = x_win
         return x_out
+
+
+if __name__ == '__main__':
+    batch_size = 4
+    in_channels = 2
+    win_size = 32
+    in_chirps = 4
+    w = 128
+    h = 128
+    out_channels = 32
+    mnet = MNet(in_chirps=in_chirps, out_channels=out_channels)
+    input = torch.randn(batch_size, in_channels, win_size, in_chirps, w, h)
+    output = mnet(input)

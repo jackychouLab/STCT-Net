@@ -3,7 +3,7 @@ import torch.nn as nn
 
 class RadarVanilla(nn.Module):
 
-    def __init__(self, in_channels, n_class, use_mse_loss=True):
+    def __init__(self, in_channels, n_class, use_mse_loss=False):
         super(RadarVanilla, self).__init__()
         self.encoder = RODEncode(in_channels=in_channels)
         self.decoder = RODDecode(n_class=n_class)

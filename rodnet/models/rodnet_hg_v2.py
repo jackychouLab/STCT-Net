@@ -1,16 +1,15 @@
 import torch.nn as nn
-
 from .backbones.hg import RadarStackedHourglass
 from .modules.mnet import MNet
-
 try:
     from ..ops.dcn import DeformConvPack3D
 except:
     print("Warning: DCN modules are not correctly imported!")
 
 
+
 class RODNetHGDCN(nn.Module):
-    def __init__(self, in_channels, n_class, stacked_num=1, mnet_cfg=None, dcn=True):
+    def __init__(self, in_channels, n_class, stacked_num=2, mnet_cfg=None, dcn=True):
         super(RODNetHGDCN, self).__init__()
         self.dcn = dcn
         if dcn:
@@ -23,11 +22,11 @@ class RODNetHGDCN(nn.Module):
             self.mnet = MNet(in_chirps_mnet, out_channels_mnet, conv_op=self.conv_op)
             self.with_mnet = True
             self.stacked_hourglass = RadarStackedHourglass(out_channels_mnet, n_class, stacked_num=stacked_num,
-                                                           conv_op=self.conv_op)
+                                                           conv_op=self.conv_op, use_mse_loss=True)
         else:
             self.with_mnet = False
             self.stacked_hourglass = RadarStackedHourglass(in_channels, n_class, stacked_num=stacked_num,
-                                                           conv_op=self.conv_op)
+                                                           conv_op=self.conv_op, use_mse_loss=True)
 
     def forward(self, x):
         if self.with_mnet:
