@@ -1,9 +1,0 @@
-{
-  "n_classes": 1,
-  "classes": [
-    "uav"
-  ],
-  "sizes": {
-    "uav": 0.5
-  }
-}
