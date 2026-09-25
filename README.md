@@ -70,6 +70,11 @@ mv $New_cruw_devkit-1.1.dist-info {Your Environment Path}/lib/python3.10/site-pa
 ## Prepare data for UAVRadar dataset
 
 Download UAVRadar dataset[`Key:6s6v`](https://pan.baidu.com/s/178Fo9nRX2tq0h4-4xu69RA). 
+```commandline
+cd $UAVRadar_root
+cat UAVRadar.tar.gz.part_* | tar -xzvf - -C ./
+rm -r UAVRadar.tar.gz.part_*
+```
 
 Prepare data and annotations for training.
 ```commandline
