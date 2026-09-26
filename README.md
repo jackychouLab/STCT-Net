@@ -63,6 +63,7 @@ pip install -e . --no-build-isolation --no-build-isolation -v
 export TORCH_CUDA_ARCH_LIST="X.X"
  ```
 `X.X` should be set to `8.9`. If an NVIDIA RTX 5090 GPU is used instead, `X.X` should be set to `12.0`.
+Please adjust this value according to the compute capability of the specific GPU being used.
 
 Download the new CRUW[`Key:gxxg`](https://pan.baidu.com/s/1e8u_0OjR-3g-gToZoPiWiQ) files and use them to replace all files within the compiled CRUW directory.
 ```commandline
