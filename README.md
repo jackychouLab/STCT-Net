@@ -55,9 +55,14 @@ cd rodnet/ops/tdc_deform_ext
 export CC=/usr/bin/gcc-11
 export CXX=/usr/bin/g++-11
 export CUDAHOSTCXX=/usr/bin/g++-11
-export TORCH_CUDA_ARCH_LIST="8.9"
+export TORCH_CUDA_ARCH_LIST="X.X"
 pip install -e . --no-build-isolation --no-build-isolation -v
 ```
+**Note:** This work uses an NVIDIA RTX 5000 Ada GPU. Therefore, when setting
+```commandline
+export TORCH_CUDA_ARCH_LIST="X.X"
+ ```
+`X.X` should be set to `8.9`. If an NVIDIA RTX 5090 GPU is used instead, `X.X` should be set to `12.0`.
 
 Download the new CRUW[`Key:gxxg`](https://pan.baidu.com/s/1e8u_0OjR-3g-gToZoPiWiQ) files and use them to replace all files within the compiled CRUW directory.
 ```commandline
