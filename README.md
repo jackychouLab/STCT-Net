@@ -9,7 +9,7 @@ Please cite our paper if this repository is helpful for your research:
 ```
 @article{STCT-Net,
   title={Towards Low-Altitude UAV Detection in Urban Radar Clutter: a Benchmark and Spatio-Temporal Channel Transfer Network},
-  author={Zhou, Jianhong and Ke, Feng and Zhai, Yikui, and Zheng, XueQiang and Jiang, Ziyi annd Lv, Haolin and Zhang, Xiu Yin },
+  author={Zhou, Jianhong and Ke, Feng and Zhai, Yikui, and Zheng, XueQiang and Jiang, Ziyi annd Lv, Haolin and Zhang, Xiu Yin},
   journal={Science China-Informtion Sciences},
   volume={-},
   number={-},
